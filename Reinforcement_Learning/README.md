@@ -18,4 +18,4 @@ Content covered during these sessions includes:
 - Pytorch
 
 ## How to run in Colab?
-Open http://colab.research.google.com/github/Tobias-Fischer/RVSS2022-RL and select the Notebook that you would like to run. You can save a copy of the notebook in your GitHub or Google Drive using File -> Save a copy.
+Open http://colab.research.google.com/github/Tobias-Fischer/RVSS2022 and select the Notebook that you would like to run. You can save a copy of the notebook in your GitHub or Google Drive using File -> Save a copy.
