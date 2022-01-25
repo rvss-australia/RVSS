@@ -1,7 +1,7 @@
 import os 
 import time
 
-import cmd_printer
+import utils.cmd_printer as cmd_printer
 import numpy as np
 import torch
 from args import args
