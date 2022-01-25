@@ -129,6 +129,10 @@ class Res18Skip(NetModel):
         
         self.criterion = self.get_criterion()
 
+    def upsample_add(self, low_res_map, high_res_map):
+        upsampled_map = nn.UpsamplingBilinear2d(scale_factor=2)(low_res_map)
+        return upsampled_map + high_res_map
+    
     def forward(self, img):
         # Encoder
         c1 = self.res18_backbone(img)
