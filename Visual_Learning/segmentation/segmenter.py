@@ -30,7 +30,7 @@ class Segmenter:
         print('If you are using Opencv, the image is likely to be in "BRG"!!!')
         cmd_printer.divider()
         # color in bgr order
-        self.colour_code = np.array([(255, 0, 0), (0, 255, 0), (0, 0, 255),
+        self.colour_code = np.array([(220, 220, 220), (128, 0, 0), (0, 128, 0),
                                     (128, 128, 0), (0, 0, 128), (128, 0, 128),
                                     (0, 128, 128), (128, 128, 128), (64, 0, 0),
                                     (192, 0, 0), (64, 128, 0), (192, 128, 0)])
