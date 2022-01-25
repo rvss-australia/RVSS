@@ -47,10 +47,10 @@ class Segmenter:
                 pred = torch.argmax(pred.squeeze(), dim=0).detach().numpy()
         dt = time.time() - tick
         print(f'Inference Time {dt:.2f}s, approx {1/dt:.2f}fps', end="\r")
-        colour_map = self.visualise_output(pred, labels)
+        colour_map = self.visualise_output(pred, labels, resize_to)
         return pred, colour_map
 
-    def visualise_output(self, nn_output, labels=None):
+    def visualise_output(self, nn_output, labels, resize_to):
         r = np.zeros_like(nn_output).astype(np.uint8)
         g = np.zeros_like(nn_output).astype(np.uint8)
         b = np.zeros_like(nn_output).astype(np.uint8)
@@ -60,18 +60,18 @@ class Segmenter:
             g[idx] = self.colour_code[class_idx, 1]
             b[idx] = self.colour_code[class_idx, 2]
         colour_map = np.stack([b, g, r], axis=2)
-        colour_map = cv2.resize(colour_map, (256, 256), cv2.INTER_NEAREST)
+        colour_map = cv2.resize(colour_map, resize_to, cv2.INTER_NEAREST)
         w, h = 10, 10
         pt = (10, 160)
         pad = 5
         font = cv2.FONT_HERSHEY_SIMPLEX 
-        for i in range(1, self.args.n_classes + 1):
+        for i in range(0, self.args.n_classes + 1):
             c = self.colour_code[i]
             colour_map = cv2.rectangle(colour_map, pt, (pt[0]+w, pt[1]+h),
                             (int(c[2]), int(c[1]), int(c[0])), thickness=-1)
             colour_map = cv2.rectangle(colour_map, pt, (pt[0]+w, pt[1]+h),
                             (200, 200, 200), thickness=1)
-            colour_map  = cv2.putText(colour_map, labels[i-1],
+            colour_map  = cv2.putText(colour_map, labels[i],
             (pt[0]+w+pad, pt[1]+h-1), font, 0.4, (200, 200, 200))
             pt = (pt[0], pt[1]+h+pad)
         return colour_map[..., ::-1]
