@@ -60,7 +60,7 @@ class Segmenter:
             g[idx] = self.colour_code[class_idx, 1]
             b[idx] = self.colour_code[class_idx, 2]
         colour_map = np.stack([b, g, r], axis=2)
-        colour_map = cv2.resize(colour_map, resize_to, cv2.INTER_NEAREST)
+        colour_map = cv2.resize(colour_map, (resize_to[1], resize_to[0]), cv2.INTER_NEAREST)
         w, h = 10, 10
         pt = (10, 160)
         pad = 5
