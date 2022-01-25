@@ -1,7 +1,7 @@
 import argparse
 
 parser = argparse.ArgumentParser()
-parser.add_argument("--n_classes", metavar='', type=int, default=2)
+parser.add_argument("--n_classes", metavar='', type=int)
 parser.add_argument("--lr", metavar='', type=float, default=1.0e-3)
 parser.add_argument("--epochs", metavar='', type=int, default=10)
 parser.add_argument("--batch_size", metavar='', type=int, default=16)

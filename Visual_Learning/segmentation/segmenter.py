@@ -62,7 +62,7 @@ class Segmenter:
         colour_map = np.stack([b, g, r], axis=2)
         colour_map = cv2.resize(colour_map, (256, 256), cv2.INTER_NEAREST)
         w, h = 10, 10
-        pt = (10, 200)
+        pt = (10, 160)
         pad = 5
         font = cv2.FONT_HERSHEY_SIMPLEX 
         for i in range(0, self.args.n_classes + 1):
