@@ -20,9 +20,9 @@ class Trainer:
             "cuda" if torch.cuda.is_available() else "cpu")
         print(f'\n=> The device is using {torch.cuda.device_count()} GPU(s).')
         #
-        if self.args.model_dir == '':
+        if self.args.weights_dir == '':
             raise Exception('Output Destination cannot be empty !!!')
-        os.makedirs(self.args.model_dir, exist_ok=True)
+        os.makedirs(self.args.weights_dir, exist_ok=True)
 
     def fit(self, model, train_loader, eval_loader):
         model = model.to(self.device)
@@ -104,7 +104,7 @@ class Trainer:
     def load_ckpt(self, model, optimiser=None, lr_scheduler=None):
         ckpt_suffix = '.best.pth' if self.args.load_best else '.pth'
         ckpt_name = f'model{ckpt_suffix}'
-        ckpt_path = os.path.join(self.args.model_dir, ckpt_name)
+        ckpt_path = os.path.join(self.args.weights_dir, ckpt_name)
         if os.path.exists(ckpt_path):
             ckpt = torch.load(ckpt_path,
                               map_location=lambda storage, loc: storage)
@@ -128,13 +128,13 @@ class Trainer:
         if optimiser is not None:
             ckpt['lr_scheduler'] = lr_scheduler.state_dict()
         ckpt_name = 'model.pth'
-        ckpt_path = os.path.join(self.args.model_dir, ckpt_name)
+        ckpt_path = os.path.join(self.args.weights_dir, ckpt_name)
         with open(ckpt_path, 'wb') as f:
             torch.save(ckpt, f)
         f.close()
         if self.loss_reduction > 0:
             best_ckpt_name = 'model.best.pth'
-            best_ckpt_path = os.path.join(self.args.model_dir, best_ckpt_name)
+            best_ckpt_path = os.path.join(self.args.weights_dir, best_ckpt_name)
             ckpt = {'weights': weights}
             with open(best_ckpt_path, 'wb') as best_f:
                 torch.save(ckpt, best_f)
@@ -148,11 +148,11 @@ class Trainer:
             print('=> Model Saved\n')
 
     def log(self, item):
-        with open(os.path.join(self.args.model_dir, 'log.txt'), 'a') as log_file:
+        with open(os.path.join(self.args.weights_dir, 'log.txt'), 'a') as log_file:
             log_file.write(item)
 
     def init_log(self, model):
-        with open(os.path.join(self.args.model_dir, 'log.txt'), 'a') as _f:
+        with open(os.path.join(self.args.weights_dir, 'log.txt'), 'a') as _f:
             print('Net Architecture:', file=_f)
             print(model, file=_f)
             _f.write(f'Loss Function: {model.criterion.__class__.__name__}\n')
