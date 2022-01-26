@@ -5,8 +5,8 @@ import utils.cmd_printer as cmd_printer
 import numpy as np
 import torch
 from args import args
-from models import Res18Baseline
-from models import Res18Skip
+from ipynb.fs.full.models import Res18Baseline
+from ipynb.fs.full.models import Res18Skip
 from torchvision import transforms
 import cv2
 
