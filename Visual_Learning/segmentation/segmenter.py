@@ -5,11 +5,14 @@ import utils.cmd_printer as cmd_printer
 import numpy as np
 import torch
 from args import args
-from ipynb.fs.full.models import Res18Baseline
-from ipynb.fs.full.models import Res18Skip
+from models import Res18Baseline
+from models import Res18Skip
 from torchvision import transforms
 import cv2
 
+if not os.path.exists('models.py'):
+  os.system("jupyter nbconvert - -to python 'models.ipynb'")
+  
 class Segmenter:
     def __init__(self, ckpt, use_gpu=False, model='res18_baseline'):
         self.args = args
