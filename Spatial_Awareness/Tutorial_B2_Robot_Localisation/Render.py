@@ -78,6 +78,7 @@ def Render(state):
   fig.update_xaxes(showgrid=False, range = [-4,-2])
   fig.update_yaxes(showgrid=False, range = [-3.5,-1.5])
   fig.update_layout(template="plotly_white")
+  fig.update_layout(showlegend=False)
   fig.update_layout(width = 500, height=530) #makes it look square on my screen
   fig.layout.updatemenus[0].buttons[0].args[1]["frame"]["duration"] = 100
   fig.show()
