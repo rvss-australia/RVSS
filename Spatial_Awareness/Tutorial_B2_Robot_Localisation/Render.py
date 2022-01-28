@@ -4,25 +4,21 @@ import numpy as np
 import os
 from PIL import Image
 
-def arrowx(x,theta,size):
+def arrow(x,y,theta,size):
   c=np.cos(theta)
   s=np.sin(theta)
-  return[x,
+  return([x,
          x+c*size,
          x+(0.75*c-0.15*s)*size,
          None,
          x+c*size,
-         x+(0.75*c+0.15*s)*size]
-
-def arrowy(y,theta,size):
-  s=np.sin(theta)
-  c=np.cos(theta)
-  return[y,
+         x+(0.75*c+0.15*s)*size],
+         [y,
           y+s*size,
           y+(0.75*s+0.15*c)*size,
           None,
           y+s*size,
-          y+(0.75*s-0.15*c)*size]
+          y+(0.75*s-0.15*c)*size])
 
 def robot(state,xcol,ycol,rx,ry,ra,rc):
   arrowsize=0.1
@@ -30,16 +26,44 @@ def robot(state,xcol,ycol,rx,ry,ra,rc):
     x=state[t,0]
     y=state[t,1]
     theta=state[t,2]
-    rx+=arrowx(x,theta,arrowsize)
-    ry+=arrowy(y,theta,arrowsize)
+    arrx,arry = arrow(x, y, theta, arrowsize)
+    rx+=arrx
+    ry+=arry
     ra+=[t]*6
     rc+=[xcol]*6
-    rx+=arrowx(x,theta+np.pi/2,arrowsize)
-    ry+=arrowy(y,theta+np.pi/2,arrowsize)
+    arrx,arry = arrow(x, y, theta+np.pi/2, arrowsize)
+    rx+=arrx
+    ry+=arry
     ra+=[t]*6
     rc+=[ycol]*6
 
-def Render(state=None, gtstate=None):
+def ellipse(mm,numpts):
+  a = mm.covariance[0,0]
+  b = mm.covariance[0,1]
+  c = mm.covariance[1,1]
+  ap = 1/np.sqrt(a-b*b/c)
+  bp = -b*ap/c
+  cp = 1/np.sqrt(c)
+  invsqrt=np.array([[a,0],[b,c]])
+  xs,ys=[],[]
+  for i in range(numpts+1):
+    theta = i*2*np.pi/numpts
+    coord = np.matmul(invsqrt,np.array([[np.cos(theta)],[np.sin[theta]]]))
+    xs.append(coord[0,0]+mm.position[0])
+    ys.append(coord[1,0]+mm.position[1])
+  return (xs,ys)
+  
+def meas(m,mcol,rx,ry,ra,rc):
+  for t in range(len(m)):
+    mm=m[t]
+    numpts=20
+    xell,yell = ellipse(mm,numpts)
+    rx+=ell
+    ry+=yell
+    ra+=[t]*(numpts+1)
+    rc+=[mcol]*(numpts+1)
+
+def Render(state=None, gtstate=None, measurements=None):
   x,y,a,c=[],[],[],[]
 
   if(state is not None):
@@ -48,7 +72,10 @@ def Render(state=None, gtstate=None):
   if(gtstate is not None):
     robot(gtstate,'dr','dg',x,y,a,c)
 
-  colmap={'r':'#FF0000','g':'#00FF00','dr':'#800000','dg':'#008000'}
+  if(measurements is not None):
+    meas(measurements,'b',x,y,a,c)
+
+  colmap={'r':'#FF0000','g':'#00FF00','dr':'#800000','dg':'#008000','b':'#8080ff'}
   fig = px.line(x=x,y=y,animation_frame=a, color=c, color_discrete_map=colmap)
 
   marker_files = [filename for filename in os.listdir('./image') if filename.startswith("M")]
