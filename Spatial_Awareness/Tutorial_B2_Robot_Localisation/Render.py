@@ -55,13 +55,14 @@ def ellipse(mm,numpts):
   
 def meas(m,mcol,rx,ry,ra,rc):
   for t in range(len(m)):
-    mm=m[t]
+    mms=m[t]
     numpts=20
-    xell,yell = ellipse(mm,numpts)
-    rx+=ell
-    ry+=yell
-    ra+=[t]*(numpts+1)
-    rc+=[mcol]*(numpts+1)
+    for mm in mms:
+      xell,yell = ellipse(mm,numpts)
+      rx+=ell
+      ry+=yell
+      ra+=[t]*(numpts+1)
+      rc+=[mcol]*(numpts+1)
 
 def Render(state=None, gtstate=None, measurements=None):
   x,y,a,c=[],[],[],[]
