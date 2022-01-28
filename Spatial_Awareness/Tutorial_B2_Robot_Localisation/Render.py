@@ -37,34 +37,60 @@ def robot(state,xcol,ycol,rx,ry,ra,rc):
     ra+=[t]*6
     rc+=[ycol]*6
 
-def ellipse(mm,numpts):
-  a = mm.covariance[0,0]
-  b = mm.covariance[0,1]
-  c = mm.covariance[1,1]
-  ap = 1/np.sqrt(a-b*b/c)
-  bp = -b*ap/c
-  cp = 1/np.sqrt(c)
-  invsqrt=np.array([[a,0],[b,c]])
+def ellipse(pos,covariance,numpts,scale=0.25):
+  a = covariance[0,0]
+  b = covariance[0,1]
+  c = covariance[1,1]
+  cp = np.sqrt(c)
+  bp = b/cp
+  ap = np.sqrt(a-bp*bp)
+  sqrt=np.array([[ap,0],[bp,cp]])
   xs,ys=[],[]
   for i in range(numpts+1):
     theta = i*2*np.pi/numpts
-    coord = np.matmul(invsqrt,np.array([[np.cos(theta)],[np.sin[theta]]]))
-    xs.append(coord[0,0]+mm.position[0])
-    ys.append(coord[1,0]+mm.position[1])
+    circlepos = np.array([scale*np.cos(theta),scale*np.sin(theta)])
+    coord = np.matmul(sqrt,circlepos)+pos
+    xs.append(coord[0])
+    ys.append(coord[1])
+  xs.append(None)
+  ys.append(None)  
   return (xs,ys)
   
-def meas(m,mcol,rx,ry,ra,rc):
+def meas(state,m,mcol,rx,ry,ra,rc):
   for t in range(len(m)):
+    rpos = state[t,0:2]
+    rtheta = state[t,2]
+    c=np.cos(rtheta)
+    s=np.sin(rtheta)
+    rrot = np.array([[c,-s],[s,c]])
+
     mms=m[t]
     numpts=20
     for mm in mms:
-      xell,yell = ellipse(mm,numpts)
-      rx+=ell
-      ry+=yell
-      ra+=[t]*(numpts+1)
-      rc+=[mcol]*(numpts+1)
+      mpos = mm.position[:,0]
+      mcov = mm.covariance
 
-def Render(state=None, gtstate=None, measurements=None):
+      mwpos = rpos+np.matmul(rrot,mpos)
+      mwcov = np.matmul(np.matmul(rrot,mcov),rrot.transpose())
+
+      xell,yell = ellipse(mwpos,mwcov,numpts)
+      rx+=xell
+      ry+=yell
+      ra+=[t]*len(xell)
+      rc+=[mcol]*len(xell)
+
+def drawrcov(state, rcov, col, rx, ry, ra, rc):
+  for t in range(len(state)):
+    rpos = state[t,0:2]
+    cov = rcov[t]
+    xs, ys = ellipse(rpos, cov, 20)
+    rx+=xs
+    ry+=ys
+    ra+=[t]*len(xs)
+    rc+=[col]*len(xs)
+
+
+def Render(state=None, gtstate=None, measurements=None, rcov=None):
   x,y,a,c=[],[],[],[]
 
   if(state is not None):
@@ -74,9 +100,12 @@ def Render(state=None, gtstate=None, measurements=None):
     robot(gtstate,'dr','dg',x,y,a,c)
 
   if(measurements is not None):
-    meas(measurements,'b',x,y,a,c)
+    meas(state, measurements,'b',x,y,a,c)
 
-  colmap={'r':'#FF0000','g':'#00FF00','dr':'#800000','dg':'#008000','b':'#8080ff'}
+  if(rcov is not None):
+    drawrcov(state,rcov,'c',x,y,a,c)
+
+  colmap={'r':'#FF0000','g':'#00FF00','dr':'#800000','dg':'#008000','b':'#8080ff', 'c':'#00ffff'}
   fig = px.line(x=x,y=y,animation_frame=a, color=c, color_discrete_map=colmap)
 
   marker_files = [filename for filename in os.listdir('./image') if filename.startswith("M")]
