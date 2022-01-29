@@ -35,7 +35,7 @@ def ellipse(pos,covariance,numpts=20,scale=1):
   cp = np.sqrt(c)
   bp = b/cp
   ap = np.sqrt(a-bp*bp)
-  sqrt=np.array([[ap,0],[bp,cp]])
+  sqrt=np.array([[ap,bp],[0,cp]])
   xs,ys=[],[]
   for i in range(numpts+1):
     theta = i*2*np.pi/numpts
