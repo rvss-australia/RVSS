@@ -154,7 +154,7 @@ def Render(state=None, gt_state=None, measurements=None, robot_cov=None, landmar
             opacity=1.0,
             layer="below")
     )
-
+  fig.update_layout(sliders=[{"currentvalue": {"prefix": "Timestep="}}])
   fig.update_xaxes(showgrid=False, range = [-4,-2])
   fig.update_yaxes(showgrid=False, range = [-3.5,-1.5])
   fig.update_layout(template="plotly_white", showlegend=False)
