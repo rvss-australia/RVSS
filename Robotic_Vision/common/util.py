@@ -6,6 +6,7 @@ import numpy as np
 from os.path import join
 import pandas as pd
 import time
+import plotly.graph_objects as go
 
 
 class Timer:
@@ -94,22 +95,28 @@ def load_events(path_to_events, n_events=None):
     print('Loaded {:.2f}M events'.format(len(event_list) / 1e6))
     return EventData(event_list, width, height)
 
-
 def plot_3d(event_data, n_events=-1):
-    fig = plt.figure(figsize=(8, 6))
-    ax = fig.add_subplot(111, projection='3d')
     x, y, t, c = [], [], [], []
     for e in event_data.event_list[:int(n_events)]:
         x.append(e.x)
         y.append(e.y)
         t.append(e.t * 1e3)
-        c.append('r' if e.p == 1 else 'b')
-    ax.scatter(t, x, y, c=c, marker='.')
-    ax.set_xlabel('Time (ms)')
-    ax.set_ylabel('X')
-    ax.set_zlabel('Y')
-    ax.set_zlim(*ax.get_zlim()[::-1])  # reverse 'y' image axis
+        c.append('rgb(255,0,0)' if e.p == 1 else 'rgb(0,0,255)')
+    fig = go.Figure(data=[go.Scatter3d(x=t, y=x, z=y, 
+                                       mode='markers',
+                                       marker=dict(
+                                           size=2,
+                                           color=c,                # set color to an array/list of desired values
+                                           opacity=0.8
+                                    ))])
 
+    fig.update_layout(scene = dict(
+                    xaxis_title='Time (ms)',
+                    yaxis_title='X',
+                    zaxis_title='Y'))
+    fig.update_yaxes(autorange="reversed")
+
+    fig.show()
 
 def event_slice(event_data, start=0, duration_ms=30):
     events, height, width = event_data.event_list, event_data.height, event_data.width
