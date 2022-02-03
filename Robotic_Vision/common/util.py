@@ -74,7 +74,7 @@ def animate(images, fig_title=''):
         ims.append([im])
     ani = ArtistAnimation(fig, ims, interval=50, blit=False, repeat_delay=1000)
     plt.close(ani._fig)
-    return ani
+    return HTML(ani.to_html5_video())
 
 
 def load_events(path_to_events, n_events=None):
