@@ -7,6 +7,7 @@ from os.path import join
 import pandas as pd
 import time
 import plotly.graph_objects as go
+from IPython.core.display import display, HTML, Image
 
 
 class Timer:
