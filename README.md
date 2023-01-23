@@ -3,6 +3,9 @@
 The material here provided was developed as part of the [Robotic Vision Summer School](https://www.rvss.org.au/).
 
 
+# Workshops
+Please see this [separate README](./README_Workshop.md).
+
 # Lectorials
 You can run the notebooks via Colab: http://colab.research.google.com/github/Tobias-Fischer/RVSS.
 
