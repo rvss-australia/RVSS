@@ -101,6 +101,9 @@ Presented by Tom Drummond, University of Melbourne
 <br>
 Slides coming soon
 
+#### Coding Sessions:
+* [Basic Geometry](https://colab.research.google.com/github/Tobias-Fischer/RVSS/blob/main/Spatial_Awareness/Tutorial_B1_Basic_Geometry/Basic%20Geometry.ipynb)
+
 </details>
  
 ### B3, B4: How do I model the world?
@@ -109,6 +112,14 @@ Slides coming soon
 
 <br>
 Slides coming soon
+
+#### Coding Sessions:
+* [Motion Model](https://colab.research.google.com/github/Tobias-Fischer/RVSS/blob/main/Spatial_Awareness/Tutorial_B2_Robot_Localisation/1_MotionModel.ipynb)
+* [Uncertainty](https://colab.research.google.com/github/Tobias-Fischer/RVSS/blob/main/Spatial_Awareness/Tutorial_B2_Robot_Localisation/2_Uncertainty.ipynb)
+* [Kalman Filter 1D](https://colab.research.google.com/github/Tobias-Fischer/RVSS/blob/main/Spatial_Awareness/Tutorial_B2_Robot_Localisation/3_KalmanFilter1D.ipynb)
+* [Multivariate Gaussian](https://colab.research.google.com/github/Tobias-Fischer/RVSS/blob/main/Spatial_Awareness/Tutorial_B2_Robot_Localisation/4_MultiVariateGaussian.ipynb)
+* [EKF](https://colab.research.google.com/github/Tobias-Fischer/RVSS/blob/main/Spatial_Awareness/Tutorial_B2_Robot_Localisation/5_EKF.ipynb)
+* [SLAM](https://colab.research.google.com/github/Tobias-Fischer/RVSS/blob/main/Spatial_Awareness/Tutorial_B2_Robot_Localisation/6_SLAM.ipynb)
 
 </details>
 
@@ -164,6 +175,9 @@ Presented by Pamela Carreno-Medrano, Monash University
 <br>
 During this session we will start our discussion on reinforcement learning.  We will discuss the main components of the reinforcement learning framework, introduce the fundamental concepts and algorithms and test them in a simple 2D discretised environment.
 
+#### Coding Sessions:
+* [Introduction to Reinforcement Learning](https://colab.research.google.com/github/Tobias-Fischer/RVSS/blob/main/Reinforcement_Learning/Session%201%20IntroRL.ipynb)
+
 </details>
 
 ### D2: Introduction to Model-Free RL and Deep RL
@@ -172,6 +186,11 @@ During this session we will start our discussion on reinforcement learning.  We 
 
 <br>
 In this session we will continue our discussion on reinforcement learning: enabling robots to learn how to operate in their environment through interaction.  We will discuss how we can approximate the optimal policy even when we don't know the state and reward models, and extend from discrete to continuous state-action spaces.
+
+#### Coding Sessions:
+* [Introduction to Model-Free Reinforcement Learning](https://colab.research.google.com/github/Tobias-Fischer/RVSS/blob/main/Reinforcement_Learning/Session%202.1%20ModelFreeRL.ipynb)
+* [Deep RL - Replay Memory](https://colab.research.google.com/github/Tobias-Fischer/RVSS/blob/main/Reinforcement_Learning/Session%202.2%20-%20DeepRL_ReplayMemory.ipynb)
+* [Deep RL - Target Network](https://colab.research.google.com/github/Tobias-Fischer/RVSS/blob/main/Reinforcement_Learning/Session%202.3%20-%20DeepRL_DQNTarget.ipynb)
 
 </details>
 
