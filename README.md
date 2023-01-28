@@ -6,7 +6,7 @@ The material here provided was developed as part of the [Robotic Vision Summer S
 
 ---
 # Workshops
-Please see this [separate README](./README_Workshop.md).
+Please see this [separate README](https://github.com/dimitymiller/RVSS_Need4Speed).
 
 ---
 # Lectorials
