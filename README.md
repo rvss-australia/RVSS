@@ -134,6 +134,9 @@ Presented by Simon Lucey, University of Adelaide
 <br>
 Slides coming soon
 
+#### Coding Session:
+* [Image classification with multi-layer perceptron](https://colab.research.google.com/github/Tobias-Fischer/RVSS/blob/main/Visual_Learning/Session1/Classification_MLP_2021.ipynb#scrollTo=lvPV3WzCC6WL)
+
 </details>
 
 ### C2: Deep Visual Learning
@@ -142,6 +145,9 @@ Slides coming soon
 
 <br>
 Slides coming soon
+
+#### Coding Session:
+* [Image classification with Convolutional NN](https://colab.research.google.com/github/Tobias-Fischer/RVSS/blob/main/Visual_Learning/Session2/LeNetClassificationExcercise_2021.ipynb)
 
 </details>
 
