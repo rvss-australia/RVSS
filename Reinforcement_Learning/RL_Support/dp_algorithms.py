@@ -163,6 +163,6 @@ def policy_evaluation(grid_env, policy, threshold=0.00001):
 
             v[s] = new_v
             delta = max(delta, np.abs(old_v - new_v))
-
+            
         
     return v

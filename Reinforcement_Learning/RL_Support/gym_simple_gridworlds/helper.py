@@ -1,6 +1,6 @@
 import numpy as np
-from gym_simple_gridworlds.envs.grid_env import GridEnv
-from gym_simple_gridworlds.envs.grid_2dplot import plot_value_function, plot_policy
+from RL_Support.gym_simple_gridworlds.envs.grid_env import GridEnv
+from RL_Support.gym_simple_gridworlds.envs.grid_2dplot import plot_value_function, plot_policy
 from collections import defaultdict
 from copy import deepcopy
 from matplotlib import pyplot as plt
@@ -41,7 +41,6 @@ def encode_policy(grid_env, policy_matrix=None):
 
     return result_policy
 
-
 def define_random_policy(grid_env):
     """
     Define random deterministic policy for given environment
@@ -63,39 +62,58 @@ def define_random_policy(grid_env):
 
     return policy_matrix
 
+def one_step_look_ahead(grid_env, state, value_function):
+    """
+     Compute the action-value function for a state $s$ given the state-value function $v$.
+     
+     :param grid_env (GridEnv): MDP environment
+     :param state (int): state for which we are looking one action ahead
+     :param value_function (dict): state-value function associated to a given policy py
+     
+     :return: (np.array) Action-value function for all actions available at state s
+    """
+    action_values = []
+    
+    for action in grid_env.get_actions():
+        discounted_value = 0
+        for s_next in grid_env.get_states():
+             discounted_value += grid_env.state_transitions[state, action, s_next] * value_function[s_next]
+        
+        q_a = grid_env.rewards[state, action] + grid_env.gamma * discounted_value
+        action_values.append(q_a)
+    
+    return np.array(action_values)
 
-def policy_evaluation(env, policy):
-
-    v = {s: 0.0 for s in env.get_states()}
-    theta = 0.0001
-    delta = 1000
-
-    while delta > theta:
-        delta = 0.0
-        for s in v.keys():
-
-            old_v = v[s]
-            new_v = 0
-
-            for action, probability in policy[s].items():
-                state_sum = 0
-                for s_next in env.get_states():
-                    state_sum += env.state_transitions[s, action, s_next] * v[s_next]
-
-                new_v += probability * (env.rewards[s, action] + env.gamma * state_sum)
-
-            delta = max(delta, np.abs(old_v - new_v))
-            v[s] = new_v
-    return v
-
+def update_policy(grid_env, cur_policy, value_function):
+    """
+     Update a given policy based on a given value_function
+     
+     :param grid_env (GridEnv): MDP environment
+     :param cur_policy (matrix form): Policy to update
+     :param value_function: state-value function associated to a policy cur_policy
+     
+     :return: (dict) Updated policy
+    """
+    
+    states = grid_env.get_states(exclude_terminal=True)
+    
+    for s in states:
+        # Obtain state-action values for state s using the helper function one_step_look_ahead
+        action_values = one_step_look_ahead(grid_env, s, value_function)
+        
+        # Find (row, col) coordinates of cell with index s
+        row, col = np.argwhere(grid_env.grid == s)[0]
+        
+        cur_policy[row, col] = np.argmax(action_values)
+        
+    return cur_policy
+    
 
 def decode_policy(grid_env, policy=None):
     """
      Convert stochastic policy representation (dict of dict) to deterministic policy matrix
-
      :param grid_env: MDP environment
      :param policy: stochastic policy (probability of each action at each state)
-
      :return: (matrix) Deterministic policy matrix (one action per state)
      """
 
