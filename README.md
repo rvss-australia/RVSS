@@ -181,6 +181,9 @@ Presented by Pamela Carreno-Medrano, Monash University
 <br>
 During this session we will start our discussion on reinforcement learning.  We will discuss the main components of the reinforcement learning framework, introduce the fundamental concepts and algorithms and test them in a simple 2D discretised environment.
 
+#### Slides:
+* [D1 Slides](https://www.dropbox.com/s/tq0n2ewvdstamx2/RL_RVSS2023_Session1.pdf?dl=0)
+
 #### Coding Sessions:
 * [Introduction to Reinforcement Learning](https://colab.research.google.com/github/Tobias-Fischer/RVSS/blob/main/Reinforcement_Learning/Session%201%20IntroRL.ipynb)
 
@@ -192,6 +195,9 @@ During this session we will start our discussion on reinforcement learning.  We 
 
 <br>
 In this session we will continue our discussion on reinforcement learning: enabling robots to learn how to operate in their environment through interaction.  We will discuss how we can approximate the optimal policy even when we don't know the state and reward models, and extend from discrete to continuous state-action spaces.
+
+#### Slides:
+* [D2 Slides](https://www.dropbox.com/s/6uy3ba81z8m1aks/RL_RVSS2023_Session2.pdf?dl=0)
 
 #### Coding Sessions:
 * [Introduction to Model-Free Reinforcement Learning](https://colab.research.google.com/github/Tobias-Fischer/RVSS/blob/main/Reinforcement_Learning/Session%202.1%20ModelFreeRL.ipynb)
