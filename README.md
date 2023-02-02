@@ -52,9 +52,12 @@ The following masterclasses from the [QUT Robot Academy](https://robotacademy.ne
 
 </details>
 
-### A2: Introduction to Visual Geometry (Donald Dansereau & Peter Corke)
+### A2: Image Formation (Donald Dansereau & Peter Corke)
 <details>
 <summary>From light to digital images, the front end of the robotic vision process</summary>
+
+#### Slides:
+[A2 Slides](https://docs.google.com/presentation/d/1un5R2qxUufTnkCE1PSwzNTMkPuO13Ya3ubjcRwXYlYY/edit?usp=sharing)
 
 #### Coding Session:
 * [Camera projection basics](https://colab.research.google.com/github/Tobias-Fischer/RVSS/blob/main/Robotic_Vision/camera_animation.ipynb)
