@@ -19,7 +19,7 @@ Links to slide decks and information about the lectorials will appear below.
 ## Lectorial A: Robotic Vision
 Presented by Peter Corke, Queensland University of Technology, and Donald G. Dansereau, University of Sydney
 
-### A: Introduction to Robotic Vision
+### A: Introduction to Robotic Vision (Peter Corke)
 <details>
 <summary>A general introduction and motivation about the importance/elegance/power of vision as a sensor, and why robots need it</summary>
 
@@ -60,9 +60,15 @@ The following masterclasses from the [QUT Robot Academy](https://robotacademy.ne
 <summary>From light to digital images, the front end of the robotic vision process</summary>
 
 #### Slides:
+ 
+Presented by Don.
+ 
 [A2 Slides](https://docs.google.com/presentation/d/1un5R2qxUufTnkCE1PSwzNTMkPuO13Ya3ubjcRwXYlYY/edit?usp=sharing)
 
 #### Coding Session:
+ 
+Hosted by Peter.
+ 
 * [Camera projection basics](https://colab.research.google.com/github/Tobias-Fischer/RVSS/blob/main/Robotic_Vision/camera_animation.ipynb)
 * [Camera modeling](https://colab.research.google.com/github/Tobias-Fischer/RVSS/blob/main/Robotic_Vision/camera.ipynb)
 * [Camera calibration](https://colab.research.google.com/github/Tobias-Fischer/RVSS/blob/main/Robotic_Vision/calibration.ipynb)
