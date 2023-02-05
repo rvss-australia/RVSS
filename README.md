@@ -23,8 +23,8 @@ Presented by Peter Corke, Queensland University of Technology, and Donald G. Dan
 <details>
 <summary>A general introduction and motivation about the importance/elegance/power of vision as a sensor, and why robots need it</summary>
 
-<br>
-Slides coming soon
+#### Slides:
+[A0 Slides](https://www.dropbox.com/s/q193uud3jc7b5ew/RVSS%20vision%20intro.pdf?dl=0)
 
 </details>
 
@@ -32,12 +32,15 @@ Slides coming soon
 <details>
 <summary>Pixels, images, image processing, feature extraction</summary>
 
+#### Slides:
+[A1 Slides](https://www.dropbox.com/s/69c0akfaskin4qw/RVSS%20A1%20Image%20processing.pdf?dl=0)
+
 #### Coding Session:
-* [Image features](https://colab.research.google.com/github/Tobias-Fischer/RVSS/blob/main/Robotic_Vision/image_features.ipynb)
 * [Finding blobs](https://colab.research.google.com/github/Tobias-Fischer/RVSS/blob/main/Robotic_Vision/finding-blobs.ipynb)
+* [Image features](https://colab.research.google.com/github/Tobias-Fischer/RVSS/blob/main/Robotic_Vision/image_features.ipynb)
 
 #### Supporting Resources:
-The following chapters from the [Robotics, Vision and Control](https://link.springer.com/book/10.1007%2F978-3-319-54413-7) Textbook support this session:
+The following chapters from the [Robotics, Vision and Control](https://link.springer.com/book/10.1007%2F978-3-319-54413-7) Textbook support this session (likely available from your University library as an e-book or individual chapter download):
 * Chapters 12.1, 12.2, 12.3, 12.4 and 12.5
 * Chapter 13.1
   * Those who are a bit rusty on homogenous transformation matrices, rotation matrices and similar concepts may find Chapters 2.1 and 2.2 - 2D and 3D Geometry useful.
