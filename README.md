@@ -143,8 +143,8 @@ Presented by Simon Lucey, University of Adelaide
 <details>
 <summary>Artificial neural networks</summary>
 
-<br>
-Slides coming soon
+#### Slides:
+[C1 Slides](https://www.dropbox.com/s/bfz1g2kykizu39g/RVSS%20-%20C1%20-%20Lucey.pdf?dl=0)
 
 #### Coding Session:
 * [Image classification with multi-layer perceptron](https://colab.research.google.com/github/Tobias-Fischer/RVSS/blob/main/Visual_Learning/Session1/Classification_MLP_2021.ipynb#scrollTo=lvPV3WzCC6WL)
@@ -155,8 +155,8 @@ Slides coming soon
 <details>
 <summary>Deep networks and convolutional neural networks</summary>
 
-<br>
-Slides coming soon
+#### Slides:
+[C2 & C3 Slides](https://www.dropbox.com/s/fp9lfahzzpothz9/RVSS%20C2%20%2B%20C3%20-%20Lucey.pdf?dl=0)
 
 #### Coding Session:
 * [Image classification with Convolutional NN](https://colab.research.google.com/github/Tobias-Fischer/RVSS/blob/main/Visual_Learning/Session2/LeNetClassificationExcercise_2021.ipynb)
@@ -167,8 +167,8 @@ Slides coming soon
 <details>
 <summary>The theory and practice of visual optimisation</summary>
 
-<br>
-Slides coming soon
+#### Slides:
+C2 & C3 Slides link above.
 
 </details>
 
@@ -176,8 +176,8 @@ Slides coming soon
 <details>
 <summary>Standing on the backbones of giants</summary>
 
-<br>
-Slides coming soon
+#### Slides
+[C4 Slides](https://www.dropbox.com/s/ip48oq59rn5gbi0/RVSS%20C4%20-%20Lucey.pdf?dl=0)
 
 </details>
 
