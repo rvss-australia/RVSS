@@ -237,6 +237,8 @@ Presented by Richard Hartley, Australian National University
 ## Deep Dive II
 Presented by Hanna Kurniawati, Australian National University
 
+[Slides](https://www.dropbox.com/s/j5snq0h0bih8sp0/RVSS%20Hanna.pdf?dl=0)
+
 ---
 ## Deep Dive III
 Presented by Miaomiao Liu, Australian National University
