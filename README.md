@@ -106,24 +106,24 @@ The following masterclasses from the [QUT Robot Academy](https://robotacademy.ne
 ## Lectorial B: Spatial Awareness
 Presented by Tom Drummond, University of Melbourne
  
-### B1, B2: Coordinates and Transformations
+### B1: Coordinates and Transformations
 <details>
 <summary>Describing poses and uncertainty</summary>
 
-<br>
-Slides coming soon
+#### Slides:
+[B1 Slides](https://www.dropbox.com/s/c5ge5ie616tfhg4/RVSS%20-%20B1.pdf?dl=0)
 
 #### Coding Sessions:
 * [Basic Geometry](https://colab.research.google.com/github/Tobias-Fischer/RVSS/blob/main/Spatial_Awareness/Tutorial_B1_Basic_Geometry/Basic%20Geometry.ipynb)
 
 </details>
  
-### B3, B4: How do I model the world?
+### B2: Modelling the World
 <details>
-<summary>Keeping track of stuff with imperfect measurement: Kalman filters</summary>
+<summary>Keeping track of stuff with imperfect measurement; Kalman filters</summary>
 
-<br>
-Slides coming soon
+#### Slides:
+[B2 Slides](https://www.dropbox.com/s/bg2038wvwm7hc6q/RVSS%20-%20B2.pdf?dl=0)
 
 #### Coding Sessions:
 * [Motion Model](https://colab.research.google.com/github/Tobias-Fischer/RVSS/blob/main/Spatial_Awareness/Tutorial_B2_Robot_Localisation/1_MotionModel.ipynb)
@@ -132,6 +132,16 @@ Slides coming soon
 * [Multivariate Gaussian](https://colab.research.google.com/github/Tobias-Fischer/RVSS/blob/main/Spatial_Awareness/Tutorial_B2_Robot_Localisation/4_MultiVariateGaussian.ipynb)
 * [EKF](https://colab.research.google.com/github/Tobias-Fischer/RVSS/blob/main/Spatial_Awareness/Tutorial_B2_Robot_Localisation/5_EKF.ipynb)
 * [SLAM](https://colab.research.google.com/github/Tobias-Fischer/RVSS/blob/main/Spatial_Awareness/Tutorial_B2_Robot_Localisation/6_SLAM.ipynb)
+
+</details>
+
+### B3: Recent Developments : SLAM and Machine Learning
+<details>
+<summary>SLAM Developments and the Importance of Uncertainty in Machine Learning</summary>
+
+#### Slides:
+[B3 Slides](https://www.dropbox.com/s/fegdbn2lubg13vm/RVSS%20-%20B3.pdf?dl=0)
+
 
 </details>
 
