@@ -243,6 +243,8 @@ In this session we will continue our discussion on reinforcement learning: enabl
 ## Deep Dive I 
 Presented by Richard Hartley, Australian National University
 
+[Slides](https://www.dropbox.com/s/qpllmhpmircd898/RVSS%20-%20Hartley.pdf?dl=0)
+
 ---
 ## Deep Dive II
 Presented by Hanna Kurniawati, Australian National University
