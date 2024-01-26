@@ -1,8 +1,8 @@
-import gym
+import gymnasium as gym
 import numpy as np
 import copy
-from gym import error, spaces, utils
-from gym.utils import seeding
+from gymnasium import error, spaces, utils
+from gymnasium.utils import seeding
 from RL_Support.gym_simple_gridworlds.envs.grid_2dplot import plot_grid_world, get_state_to_plot, plot_value_function
 from matplotlib import pyplot as plt
 import matplotlib.animation as animation
