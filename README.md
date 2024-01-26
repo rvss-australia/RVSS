@@ -6,11 +6,11 @@ The material here provided was developed as part of the [Robotic Vision Summer S
 
 ---
 # Workshops
-Please see this [separate README](https://github.com/dimitymiller/RVSS_Need4Speed).
+Please see this [separate README](https://github.com/rvss-australia/RVSS_Need4Speed).
 
 ---
 # Lectorials
-You can run the notebooks via Colab: http://colab.research.google.com/github/Tobias-Fischer/RVSS.
+You can run the notebooks via Colab: http://colab.research.google.com/github/rvss-australia/RVSS.
 
 Links to slide decks and information about the lectorials will appear below.
 
@@ -36,8 +36,8 @@ Presented by Peter Corke, Queensland University of Technology, and Donald G. Dan
 [A1 Slides](https://www.dropbox.com/s/69c0akfaskin4qw/RVSS%20A1%20Image%20processing.pdf?dl=0)
 
 #### Coding Session:
-* [Finding blobs](https://colab.research.google.com/github/Tobias-Fischer/RVSS/blob/main/Robotic_Vision/finding-blobs.ipynb)
-* [Image features](https://colab.research.google.com/github/Tobias-Fischer/RVSS/blob/main/Robotic_Vision/image_features.ipynb)
+* [Finding blobs](https://colab.research.google.com/github/rvss-australia/RVSS/blob/main/Robotic_Vision/finding-blobs.ipynb)
+* [Image features](https://colab.research.google.com/github/rvss-australia/RVSS/blob/main/Robotic_Vision/image_features.ipynb)
 
 #### Supporting Resources:
 The following chapters from the [Robotics, Vision and Control](https://link.springer.com/book/10.1007%2F978-3-319-54413-7) Textbook support this session (likely available from your University library as an e-book or individual chapter download):
@@ -69,10 +69,10 @@ Presented by Don.
  
 Hosted by Peter.
  
-* [Camera projection basics](https://colab.research.google.com/github/Tobias-Fischer/RVSS/blob/main/Robotic_Vision/camera_animation.ipynb)
-* [Camera modeling](https://colab.research.google.com/github/Tobias-Fischer/RVSS/blob/main/Robotic_Vision/camera.ipynb)
-* [Camera calibration](https://colab.research.google.com/github/Tobias-Fischer/RVSS/blob/main/Robotic_Vision/calibration.ipynb)
-* [Fiducial makers (AprilTags and ArUco markers)](https://colab.research.google.com/github/Tobias-Fischer/RVSS/blob/main/Robotic_Vision/fiducuals.ipynb)
+* [Camera projection basics](https://colab.research.google.com/github/rvss-australia/RVSS/blob/main/Robotic_Vision/camera_animation.ipynb)
+* [Camera modeling](https://colab.research.google.com/github/rvss-australia/RVSS/blob/main/Robotic_Vision/camera.ipynb)
+* [Camera calibration](https://colab.research.google.com/github/rvss-australia/RVSS/blob/main/Robotic_Vision/calibration.ipynb)
+* [Fiducial makers (AprilTags and ArUco markers)](https://colab.research.google.com/github/rvss-australia/RVSS/blob/main/Robotic_Vision/fiducuals.ipynb)
 
 #### Supporting Resources:
 The following chapters from the [Robotics, Vision and Control](https://link.springer.com/book/10.1007%2F978-3-319-54413-7) Textbook support this session:
@@ -90,8 +90,8 @@ The following masterclasses from the [QUT Robot Academy](https://robotacademy.ne
 <summary>Closing the loop from sensing to action</summary>
 
 #### Coding Session:
-* [Image motion](https://colab.research.google.com/github/Tobias-Fischer/RVSS/blob/main/Robotic_Vision/ImageMotion.ipynb)
-* [Image-based visual servoing (IBVS)](https://githubtocolab.com/Tobias-Fischer/RVSS/blob/main/Robotic_Vision/IBVS.ipynb)
+* [Image motion](https://colab.research.google.com/github/rvss-australia/RVSS/blob/main/Robotic_Vision/ImageMotion.ipynb)
+* [Image-based visual servoing (IBVS)](https://githubtocolab.com/rvss-australia/RVSS/blob/main/Robotic_Vision/IBVS.ipynb)
 
 #### Supporting Resources:
 The following chapters from the [Robotics, Vision and Control](https://link.springer.com/book/10.1007%2F978-3-319-54413-7) Textbook support this session:
@@ -114,7 +114,7 @@ Presented by Tom Drummond, University of Melbourne
 [B1 Slides](https://www.dropbox.com/s/c5ge5ie616tfhg4/RVSS%20-%20B1.pdf?dl=0)
 
 #### Coding Sessions:
-* [Basic Geometry](https://colab.research.google.com/github/Tobias-Fischer/RVSS/blob/main/Spatial_Awareness/Tutorial_B1_Basic_Geometry/Basic%20Geometry.ipynb)
+* [Basic Geometry](https://colab.research.google.com/github/rvss-australia/RVSS/blob/main/Spatial_Awareness/Tutorial_B1_Basic_Geometry/Basic%20Geometry.ipynb)
 
 </details>
  
@@ -126,12 +126,12 @@ Presented by Tom Drummond, University of Melbourne
 [B2 Slides](https://www.dropbox.com/s/bg2038wvwm7hc6q/RVSS%20-%20B2.pdf?dl=0)
 
 #### Coding Sessions:
-* [Motion Model](https://colab.research.google.com/github/Tobias-Fischer/RVSS/blob/main/Spatial_Awareness/Tutorial_B2_Robot_Localisation/1_MotionModel.ipynb)
-* [Uncertainty](https://colab.research.google.com/github/Tobias-Fischer/RVSS/blob/main/Spatial_Awareness/Tutorial_B2_Robot_Localisation/2_Uncertainty.ipynb)
-* [Kalman Filter 1D](https://colab.research.google.com/github/Tobias-Fischer/RVSS/blob/main/Spatial_Awareness/Tutorial_B2_Robot_Localisation/3_KalmanFilter1D.ipynb)
-* [Multivariate Gaussian](https://colab.research.google.com/github/Tobias-Fischer/RVSS/blob/main/Spatial_Awareness/Tutorial_B2_Robot_Localisation/4_MultiVariateGaussian.ipynb)
-* [EKF](https://colab.research.google.com/github/Tobias-Fischer/RVSS/blob/main/Spatial_Awareness/Tutorial_B2_Robot_Localisation/5_EKF.ipynb)
-* [SLAM](https://colab.research.google.com/github/Tobias-Fischer/RVSS/blob/main/Spatial_Awareness/Tutorial_B2_Robot_Localisation/6_SLAM.ipynb)
+* [Motion Model](https://colab.research.google.com/github/rvss-australia/RVSS/blob/main/Spatial_Awareness/Tutorial_B2_Robot_Localisation/1_MotionModel.ipynb)
+* [Uncertainty](https://colab.research.google.com/github/rvss-australia/RVSS/blob/main/Spatial_Awareness/Tutorial_B2_Robot_Localisation/2_Uncertainty.ipynb)
+* [Kalman Filter 1D](https://colab.research.google.com/github/rvss-australia/RVSS/blob/main/Spatial_Awareness/Tutorial_B2_Robot_Localisation/3_KalmanFilter1D.ipynb)
+* [Multivariate Gaussian](https://colab.research.google.com/github/rvss-australia/RVSS/blob/main/Spatial_Awareness/Tutorial_B2_Robot_Localisation/4_MultiVariateGaussian.ipynb)
+* [EKF](https://colab.research.google.com/github/rvss-australia/RVSS/blob/main/Spatial_Awareness/Tutorial_B2_Robot_Localisation/5_EKF.ipynb)
+* [SLAM](https://colab.research.google.com/github/rvss-australia/RVSS/blob/main/Spatial_Awareness/Tutorial_B2_Robot_Localisation/6_SLAM.ipynb)
 
 </details>
 
@@ -157,7 +157,7 @@ Presented by Simon Lucey, University of Adelaide
 [C1 Slides](https://www.dropbox.com/s/bfz1g2kykizu39g/RVSS%20-%20C1%20-%20Lucey.pdf?dl=0)
 
 #### Coding Session:
-* [Image classification with multi-layer perceptron](https://colab.research.google.com/github/Tobias-Fischer/RVSS/blob/main/Visual_Learning/Session1/Classification_MLP_2021.ipynb#scrollTo=lvPV3WzCC6WL)
+* [Image classification with multi-layer perceptron](https://colab.research.google.com/github/rvss-australia/RVSS/blob/main/Visual_Learning/Session1/Classification_MLP_2021.ipynb#scrollTo=lvPV3WzCC6WL)
 
 </details>
 
@@ -169,7 +169,7 @@ Presented by Simon Lucey, University of Adelaide
 [C2 & C3 Slides](https://www.dropbox.com/s/fp9lfahzzpothz9/RVSS%20C2%20%2B%20C3%20-%20Lucey.pdf?dl=0)
 
 #### Coding Session:
-* [Image classification with Convolutional NN](https://colab.research.google.com/github/Tobias-Fischer/RVSS/blob/main/Visual_Learning/Session2/LeNetClassificationExcercise_2021.ipynb)
+* [Image classification with Convolutional NN](https://colab.research.google.com/github/rvss-australia/RVSS/blob/main/Visual_Learning/Session2/LeNetClassificationExcercise_2021.ipynb)
 
 </details>
 
@@ -207,7 +207,7 @@ During this session we will start our discussion on reinforcement learning.  We 
 * [D1 Slides](https://www.dropbox.com/s/tq0n2ewvdstamx2/RL_RVSS2023_Session1.pdf?dl=0)
 
 #### Coding Sessions:
-* [Introduction to Reinforcement Learning](https://colab.research.google.com/github/Tobias-Fischer/RVSS/blob/main/Reinforcement_Learning/Session%201%20IntroRL.ipynb)
+* [Introduction to Reinforcement Learning](https://colab.research.google.com/github/rvss-australia/RVSS/blob/main/Reinforcement_Learning/Session%201%20IntroRL.ipynb)
 
 </details>
 
@@ -222,9 +222,9 @@ In this session we will continue our discussion on reinforcement learning: enabl
 * [D2 Slides](https://www.dropbox.com/s/6uy3ba81z8m1aks/RL_RVSS2023_Session2.pdf?dl=0)
 
 #### Coding Sessions:
-* [Introduction to Model-Free Reinforcement Learning](https://colab.research.google.com/github/Tobias-Fischer/RVSS/blob/main/Reinforcement_Learning/Session%202.1%20ModelFreeRL.ipynb)
-* [Deep RL - Replay Memory](https://colab.research.google.com/github/Tobias-Fischer/RVSS/blob/main/Reinforcement_Learning/Session%202.2%20-%20DeepRL_ReplayMemory.ipynb)
-* [Deep RL - Target Network](https://colab.research.google.com/github/Tobias-Fischer/RVSS/blob/main/Reinforcement_Learning/Session%202.3%20-%20DeepRL_DQNTarget.ipynb)
+* [Introduction to Model-Free Reinforcement Learning](https://colab.research.google.com/github/rvss-australia/RVSS/blob/main/Reinforcement_Learning/Session%202.1%20ModelFreeRL.ipynb)
+* [Deep RL - Replay Memory](https://colab.research.google.com/github/rvss-australia/RVSS/blob/main/Reinforcement_Learning/Session%202.2%20-%20DeepRL_ReplayMemory.ipynb)
+* [Deep RL - Target Network](https://colab.research.google.com/github/rvss-australia/RVSS/blob/main/Reinforcement_Learning/Session%202.3%20-%20DeepRL_DQNTarget.ipynb)
 
 </details>
 
