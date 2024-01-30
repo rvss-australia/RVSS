@@ -21,7 +21,6 @@ You can run the notebooks via Colab: http://colab.research.google.com/github/rvs
 
 Links to slide decks and information about the lectorials will appear below.
 
-
 ---
 ## Lectorial A: Robotic Vision
 Presented by Peter Corke, Queensland University of Technology
@@ -98,12 +97,12 @@ The following masterclasses from the [QUT Robot Academy](https://robotacademy.ne
 </details>
  
 ---
-## Lectorial B: Poses
+## Lectorial B: Spatial Awareness
 Presented by Teresa Vidal-Calleja, University of Technology Sydney
  
-### B1: Coordinates and Transformations
+### B1: Poses
 <details>
-<summary>Describing poses and uncertainty</summary>
+<summary>Describing poses, transformations, and uncertainty</summary>
 
 #### Slides:
 [B1 Slides](coming soon)
@@ -115,7 +114,7 @@ Presented by Teresa Vidal-Calleja, University of Technology Sydney
  
 ### B2: Uncertainty
 <details>
-<summary>Keeping track of stuff with imperfect measurement; Kalman filters</summary>
+<summary>Keeping track of stuff with imperfect measurement; Kalman filters, factor graphs, and batch optimisation</summary>
 
 #### Slides:
 [B2 Slides](coming soon)
@@ -132,7 +131,7 @@ Presented by Teresa Vidal-Calleja, University of Technology Sydney
 
 ### B3: Representations
 <details>
-<summary>SLAM Developments and the Importance of Uncertainty in Machine Learning</summary>
+<summary>A taxonomy of spatial representations</summary>
 
 #### Slides:
 [B3 Slides](coming soon)
@@ -145,7 +144,7 @@ Presented by Simon Lucey, University of Adelaide
 
 ### C1: Convolutional Neural Networks
 <details>
-<summary>Artificial neural networks</summary>
+<summary>Introduction to convolutional neural networks</summary>
 
 #### Slides:
 [C1 Slides](coming soon)
@@ -157,7 +156,7 @@ Presented by Simon Lucey, University of Adelaide
 
 ### C2: Visual Transformers
 <details>
-<summary>Deep networks and convolutional neural networks</summary>
+<summary>Visual transformers and their connection to convolutional neural networks</summary>
 
 #### Slides:
 [C2](coming soon)
@@ -169,7 +168,7 @@ Presented by Simon Lucey, University of Adelaide
 
 ### C3: Point Clouds
 <details>
-<summary>The theory and practice of visual optimisation</summary>
+<summary>Point cloud processing with transformers</summary>
 
 #### Slides:
 [C3 Slides](coming soon)
@@ -178,15 +177,12 @@ Presented by Simon Lucey, University of Adelaide
 
 
 ---
-## Lectorial D: Reinforcement Learning
+## Lectorial D: Learning to Act
 Presented by Dana Kulic, Monash University
 
 ### D1: Learning from Demonstrations
 <details>
-<summary>Introducing the fundamental concepts and algorithms of RL</summary>
-
-<br>
-During this session we will start our discussion on reinforcement learning.  We will discuss the main components of the reinforcement learning framework, introduce the fundamental concepts and algorithms and test them in a simple 2D discretised environment.
+<summary>Action selection as supervised learning; behaviour cloning</summary>
 
 #### Slides:
 * [D1 Slides](coming soon)
@@ -198,10 +194,7 @@ During this session we will start our discussion on reinforcement learning.  We 
 
 ### D2: Learning from Experience
 <details>
-<summary>Learning without prior state and reward models, from discrete to continuous spaces</summary>
-
-<br>
-In this session we will continue our discussion on reinforcement learning: enabling robots to learn how to operate in their environment through interaction.  We will discuss how we can approximate the optimal policy even when we don't know the state and reward models, and extend from discrete to continuous state-action spaces.
+<summary>Introduction to reinforcement learning</summary>
 
 #### Slides:
 * [D2 Slides](coming soon)
@@ -213,6 +206,15 @@ In this session we will continue our discussion on reinforcement learning: enabl
 
 </details>
 
+### D3: Inverse Reinforcement Learning
+<details>
+<summary>Introduction to inverse reinforcement learning</summary>
+
+#### Slides:
+[D3 Slides](coming soon)
+
+</details>
+
 ### Additional Resources
 <details>
 <summary>If you'd like to know more</summary>
@@ -221,15 +223,6 @@ In this session we will continue our discussion on reinforcement learning: enabl
 * Prof. Pascal Poupart's [Video Lectures](https://www.youtube.com/watch?v=KOF_BM-fNPE&t=4s&ab_channel=PascalPoupart) at University of Waterloo, Canada
 * Sutton and Barton's [Introduction to Reinforcement Learning](https://www.andrew.cmu.edu/course/10-703/textbook/BartoSutton.pdf) book
 * Sergey Levine's [Video Lectures](http://rail.eecs.berkeley.edu/deeprlcourse/) on deep reinforcement learning at UCBerkeley
-
-</details>
-
-### D3: Inverse Reinforcement Learning
-<details>
-<summary>IRL</summary>
-
-#### Slides:
-[D3 Slides](coming soon)
 
 </details>
 
