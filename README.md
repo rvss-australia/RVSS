@@ -9,6 +9,13 @@ The material here provided was developed as part of the [Robotic Vision Summer S
 Please see this [separate README](https://github.com/rvss-australia/RVSS_Need4Speed).
 
 ---
+# Introduction
+by Peter Corke, Queensland University of Technology
+
+#### Slides:
+Coming soon
+
+---
 # Lectorials
 You can run the notebooks via Colab: http://colab.research.google.com/github/rvss-australia/RVSS.
 
@@ -17,23 +24,14 @@ Links to slide decks and information about the lectorials will appear below.
 
 ---
 ## Lectorial A: Robotic Vision
-Presented by Peter Corke, Queensland University of Technology, and Donald G. Dansereau, University of Sydney
+Presented by Peter Corke, Queensland University of Technology
 
-### A: Introduction to Robotic Vision (Peter Corke)
-<details>
-<summary>A general introduction and motivation about the importance/elegance/power of vision as a sensor, and why robots need it</summary>
-
-#### Slides:
-[A0 Slides](https://www.dropbox.com/s/q193uud3jc7b5ew/RVSS%20vision%20intro.pdf?dl=0)
-
-</details>
-
-### A1: Introduction To Image Processing (Peter Corke)
+### A1: Image Processing Fundamentals
 <details>
 <summary>Pixels, images, image processing, feature extraction</summary>
 
 #### Slides:
-[A1 Slides](https://www.dropbox.com/s/69c0akfaskin4qw/RVSS%20A1%20Image%20processing.pdf?dl=0)
+[A1 Slides](coming soon)
 
 #### Coding Session:
 * [Finding blobs](https://colab.research.google.com/github/rvss-australia/RVSS/blob/main/Robotic_Vision/finding-blobs.ipynb)
@@ -55,20 +53,14 @@ The following masterclasses from the [QUT Robot Academy](https://robotacademy.ne
 
 </details>
 
-### A2: Image Formation (Donald Dansereau & Peter Corke)
+### A2: Image Formation
 <details>
 <summary>From light to digital images, the front end of the robotic vision process</summary>
 
 #### Slides:
- 
-Presented by Don.
- 
-[A2 Slides](https://docs.google.com/presentation/d/1un5R2qxUufTnkCE1PSwzNTMkPuO13Ya3ubjcRwXYlYY/edit?usp=sharing)
+[A2 Slides](coming soon)
 
 #### Coding Session:
- 
-Hosted by Peter.
- 
 * [Camera projection basics](https://colab.research.google.com/github/rvss-australia/RVSS/blob/main/Robotic_Vision/camera_animation.ipynb)
 * [Camera modeling](https://colab.research.google.com/github/rvss-australia/RVSS/blob/main/Robotic_Vision/camera.ipynb)
 * [Camera calibration](https://colab.research.google.com/github/rvss-australia/RVSS/blob/main/Robotic_Vision/calibration.ipynb)
@@ -85,9 +77,12 @@ The following masterclasses from the [QUT Robot Academy](https://robotacademy.ne
 
  </details>
  
- ### A3: Vision-based Control (Peter Corke)
+### A3: Visual Control
 <details>
 <summary>Closing the loop from sensing to action</summary>
+
+#### Slides:
+[A3 Slides](coming soon)
 
 #### Coding Session:
 * [Image motion](https://colab.research.google.com/github/rvss-australia/RVSS/blob/main/Robotic_Vision/ImageMotion.ipynb)
@@ -103,27 +98,27 @@ The following masterclasses from the [QUT Robot Academy](https://robotacademy.ne
 </details>
  
 ---
-## Lectorial B: Spatial Awareness
-Presented by Tom Drummond, University of Melbourne
+## Lectorial B: Poses
+Presented by Teresa Vidal-Calleja, University of Technology Sydney
  
 ### B1: Coordinates and Transformations
 <details>
 <summary>Describing poses and uncertainty</summary>
 
 #### Slides:
-[B1 Slides](https://www.dropbox.com/s/c5ge5ie616tfhg4/RVSS%20-%20B1.pdf?dl=0)
+[B1 Slides](coming soon)
 
 #### Coding Sessions:
 * [Basic Geometry](https://colab.research.google.com/github/rvss-australia/RVSS/blob/main/Spatial_Awareness/Tutorial_B1_Basic_Geometry/Basic%20Geometry.ipynb)
 
 </details>
  
-### B2: Modelling the World
+### B2: Uncertainty
 <details>
 <summary>Keeping track of stuff with imperfect measurement; Kalman filters</summary>
 
 #### Slides:
-[B2 Slides](https://www.dropbox.com/s/bg2038wvwm7hc6q/RVSS%20-%20B2.pdf?dl=0)
+[B2 Slides](coming soon)
 
 #### Coding Sessions:
 * [Motion Model](https://colab.research.google.com/github/rvss-australia/RVSS/blob/main/Spatial_Awareness/Tutorial_B2_Robot_Localisation/1_MotionModel.ipynb)
@@ -135,13 +130,12 @@ Presented by Tom Drummond, University of Melbourne
 
 </details>
 
-### B3: Recent Developments : SLAM and Machine Learning
+### B3: Representations
 <details>
 <summary>SLAM Developments and the Importance of Uncertainty in Machine Learning</summary>
 
 #### Slides:
-[B3 Slides](https://www.dropbox.com/s/fegdbn2lubg13vm/RVSS%20-%20B3.pdf?dl=0)
-
+[B3 Slides](coming soon)
 
 </details>
 
@@ -149,54 +143,45 @@ Presented by Tom Drummond, University of Melbourne
 ## Lectorial C: Visual Learning
 Presented by Simon Lucey, University of Adelaide
 
-### C1: Introduction to Visual Learning
+### C1: Convolutional Neural Networks
 <details>
 <summary>Artificial neural networks</summary>
 
 #### Slides:
-[C1 Slides](https://www.dropbox.com/s/bfz1g2kykizu39g/RVSS%20-%20C1%20-%20Lucey.pdf?dl=0)
+[C1 Slides](coming soon)
 
 #### Coding Session:
 * [Image classification with multi-layer perceptron](https://colab.research.google.com/github/rvss-australia/RVSS/blob/main/Visual_Learning/Session1/Classification_MLP_2021.ipynb#scrollTo=lvPV3WzCC6WL)
 
 </details>
 
-### C2: Deep Visual Learning
+### C2: Visual Transformers
 <details>
 <summary>Deep networks and convolutional neural networks</summary>
 
 #### Slides:
-[C2 & C3 Slides](https://www.dropbox.com/s/fp9lfahzzpothz9/RVSS%20C2%20%2B%20C3%20-%20Lucey.pdf?dl=0)
+[C2](coming soon)
 
 #### Coding Session:
 * [Image classification with Convolutional NN](https://colab.research.google.com/github/rvss-australia/RVSS/blob/main/Visual_Learning/Session2/LeNetClassificationExcercise_2021.ipynb)
 
 </details>
 
-### C3: Visual Optimisation
+### C3: Point Clouds
 <details>
 <summary>The theory and practice of visual optimisation</summary>
 
 #### Slides:
-C2 & C3 Slides link above.
-
-</details>
-
-### C4: Backbone Networks
-<details>
-<summary>Standing on the backbones of giants</summary>
-
-#### Slides
-[C4 Slides](https://www.dropbox.com/s/ip48oq59rn5gbi0/RVSS%20C4%20-%20Lucey.pdf?dl=0)
+[C3 Slides](coming soon)
 
 </details>
 
 
 ---
 ## Lectorial D: Reinforcement Learning
-Presented by Pamela Carreno-Medrano, Monash University
+Presented by Dana Kulic, Monash University
 
-### D1: Introduction to Reinforcement Learning
+### D1: Learning from Demonstrations
 <details>
 <summary>Introducing the fundamental concepts and algorithms of RL</summary>
 
@@ -204,14 +189,14 @@ Presented by Pamela Carreno-Medrano, Monash University
 During this session we will start our discussion on reinforcement learning.  We will discuss the main components of the reinforcement learning framework, introduce the fundamental concepts and algorithms and test them in a simple 2D discretised environment.
 
 #### Slides:
-* [D1 Slides](https://www.dropbox.com/s/tq0n2ewvdstamx2/RL_RVSS2023_Session1.pdf?dl=0)
+* [D1 Slides](coming soon)
 
 #### Coding Sessions:
 * [Introduction to Reinforcement Learning](https://colab.research.google.com/github/rvss-australia/RVSS/blob/main/Reinforcement_Learning/Session%201%20IntroRL.ipynb)
 
 </details>
 
-### D2: Introduction to Model-Free RL and Deep RL
+### D2: Learning from Experience
 <details>
 <summary>Learning without prior state and reward models, from discrete to continuous spaces</summary>
 
@@ -219,7 +204,7 @@ During this session we will start our discussion on reinforcement learning.  We 
 In this session we will continue our discussion on reinforcement learning: enabling robots to learn how to operate in their environment through interaction.  We will discuss how we can approximate the optimal policy even when we don't know the state and reward models, and extend from discrete to continuous state-action spaces.
 
 #### Slides:
-* [D2 Slides](https://www.dropbox.com/s/6uy3ba81z8m1aks/RL_RVSS2023_Session2.pdf?dl=0)
+* [D2 Slides](coming soon)
 
 #### Coding Sessions:
 * [Introduction to Model-Free Reinforcement Learning](https://colab.research.google.com/github/rvss-australia/RVSS/blob/main/Reinforcement_Learning/Session%202.1%20ModelFreeRL.ipynb)
@@ -239,20 +224,15 @@ In this session we will continue our discussion on reinforcement learning: enabl
 
 </details>
 
----
-## Deep Dive I 
-Presented by Richard Hartley, Australian National University
+### D3: Inverse Reinforcement Learning
+<details>
+<summary>IRL</summary>
 
-[Slides](https://www.dropbox.com/s/qpllmhpmircd898/RVSS%20-%20Hartley.pdf?dl=0)
+#### Slides:
+[D3 Slides](coming soon)
 
----
-## Deep Dive II
-Presented by Hanna Kurniawati, Australian National University
-
-[Slides](https://www.dropbox.com/s/j5snq0h0bih8sp0/RVSS%20Hanna.pdf?dl=0)
+</details>
 
 ---
-## Deep Dive III
-Presented by Miaomiao Liu, Australian National University
-
-[Slides](https://www.dropbox.com/s/p0bn18w24qcncnk/RVSS%20Miaomiao.pdf?dl=0)
+## Deep Dives
+Coming soon
