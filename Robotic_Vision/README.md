@@ -36,8 +36,8 @@ There are a set of free online video resources (the QUT Robot Academy) that migh
 * [Homogeneous coordinates](https://robotacademy.net.au/lesson/homogeneous-coordinates-recap/) (5 mins)
 * [Position, orientation & pose in 3D space](https://robotacademy.net.au/masterclass/3d-geometry/) (multiple lessons, 60 mins total)
 
-Code examples in these videos are done with MATLAB, but underneath each video is a code tab with versions of the code that appear in the video
-translated for different languages and toolboxes.
+Code examples in these videos are done with MATLAB, but underneath each video is a code tab, and below that is a tab that allows you to select a 
+"translation" of the code used in the video to different languages and toolboxes.
 
 <img src="readme-pix/academy.png" alt="language options for Robot Academy videos" width="400" />
 
@@ -66,7 +66,7 @@ pip install machinevisiontoolbox
 
 ## Lecture A1 Image Processing
 
-* Lecture PDF file
+* [Lecture PDF file](Slides/A1-Image-processing.pdf)
 
 * Robot Academy video masterclasses
   * [Getting images into a computer](https://robotacademy.net.au/masterclass/getting-images-into-a-computer/)
