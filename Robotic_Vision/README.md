@@ -68,27 +68,48 @@ pip install machinevisiontoolbox
 
 * [Lecture PDF file](Slides/A1-Image-processing.pdf)
 
-* Robot Academy video masterclasses
+* Robotics, Vision & Control: Chapters 11 and 12
+
+* Robot Academy video masterclasses (each is a collection of short videos, ~1h total run time)
   * [Getting images into a computer](https://robotacademy.net.au/masterclass/getting-images-into-a-computer/)
   * [Image processing](https://robotacademy.net.au/masterclass/image-processing/)
   * [Spatial operators](https://robotacademy.net.au/masterclass/spatial-operators/)
   * [Feature extraction](https://robotacademy.net.au/masterclass/feature-extraction/)
 
-* Notebooks
+* Jupyter/Python Notebooks
 
-  * `image-features.ipynb`, fundamentals of image processing as discussed in the lecture <a href="https://colab.research.google.com/github/rvss-australia/RVSS/blob/main/Robotic_Vision/image-processing.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
-  * `finding-blobs.ipynb`, extension to blob finding and blob parameters <a href="https://colab.research.google.com/github/rvss-australia/RVSS/blob/main/Robotic_Vision/finding-blobs.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
-  * `fiducials.ipynb`, extension to finding ArUco markers (QR-like codes) in an image <a href="https://colab.research.google.com/github/rvss-australia/RVSS/blob/main/Robotic_Vision/image-features.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
+  * [`image-processing.ipynb`](image-processing.ipynb), fundamentals of image processing as discussed in the lecture <a href="https://colab.research.google.com/github/rvss-australia/RVSS/blob/main/Robotic_Vision/image-processing.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
+  * [`image-features.ipynb`](image-features.ipynb), fundamentals of corner features as discussed in the lecture <a href="https://colab.research.google.com/github/rvss-australia/RVSS/blob/main/Robotic_Vision/image-features.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
+  * [`finding-blobs.ipynb`](finding-blobs.ipynb), extension to blob finding and blob parameters <a href="https://colab.research.google.com/github/rvss-australia/RVSS/blob/main/Robotic_Vision/finding-blobs.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
+  * [`fiducials.ipynb`](fiducials.ipynb), extension to finding ArUco markers (QR-like codes) in an image <a href="https://colab.research.google.com/github/rvss-australia/RVSS/blob/main/Robotic_Vision/image-features.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
 
 ## Lecture A2  Camera imaging and geometry
 
-Lecture PDF file
+* [Lecture PDF file](Slides/A2-Image-geometry.pdf)
 
-* [`camera_animation.ipynb`](https://colab.research.google.com/github/rvss-australia/RVSS/blob/main/Robotic_Vision/camera_animation.ipynb)
-* [`camera.ipynb`](https://colab.research.google.com/github/rvss-australia/RVSS/blob/main/Robotic_Vision/camera.ipynb
-* [`calibration2d.ipynb`](https://colab.research.google.com/github/rvss-australia/RVSS/blob/main/Robotic_Vision/calibration2d.ipynb)
-* [`fiducials.ipynb`](https://colab.research.google.com/github/rvss-australia/RVSS/blob/main/Robotic_Vision/fiducials.ipynb)
+* Robotics, Vision & Control: Section 13.1
+
+* Robot Academy video masterclasses (each is a collection of short videos, ~1h total run time)
+
+  * [How images are formed](https://robotacademy.net.au/masterclass/how-images-are-formed/)
+  * [The geometry of image formation](https://robotacademy.net.au/masterclass/the-geometry-of-image-formation/)
+
+* Jupyter/Python Notebooks
+
+  * [`camera_animation.ipynb`](camera_animation.ipynb), interactive animation of point projection for central projection model<a href="https://colab.research.google.com/github/rvss-australia/RVSS/blob/main/Robotic_Vision/camera_animation.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
+  * [`camera.ipynb`](camera.ipynb), <a href="https://colab.research.google.com/github/rvss-australia/RVSS/blob/main/Robotic_Vision/camera.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
+   * [`homogeneous-coords.ipynb`](homogeneous-coords.ipynb), refresher on homogeneous coordinates including an interactive animation<a href="https://colab.research.google.com/github/rvss-australia/RVSS/blob/main/Robotic_Vision/homogeneous-coords.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
+  * [`calibration2d.ipynb`](calibration2d.ipynb), extension, calibrating a camera using a set of chequerboard images  <a href="https://colab.research.google.com/github/rvss-australia/RVSS/blob/main/Robotic_Vision/calibration2d.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
+  * [`fiducials.ipynb`](fiducials.ipynb),  extension, finding the pose and identity of ArUco (QR codes) in an image <a href="https://colab.research.google.com/github/rvss-australia/RVSS/blob/main/Robotic_Vision/fiducials.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
 
 ## Lecture A3
 
-Lecture PDF file
+* [Lecture PDF file](Slides/A2-Image-formation.pdf)
+
+* Robotics, Vision & Control: Chapter 15
+
+* Robot Academy video masterclasses (each is a collection of short videos, ~1h total run time)
+
+  * [Vision and motion](https://robotacademy.net.au/masterclass/vision-and-motion/)
+
+* Jupyter/Python Notebooks
