@@ -161,3 +161,6 @@ Presented by Dana Kulic, Monash University
 
 ### Richard Hartley, The Australian National University
 * [Slides](DeepDives/RichardHartley/Kioloa-2024-small.pdf)
+
+### Jen Jen Chung, The University of Queensland
+* [Slides](DeepDives/JenJenChung/RVSS_JJC.pdf)
