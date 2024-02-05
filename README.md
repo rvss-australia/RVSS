@@ -30,7 +30,7 @@ Presented by Peter Corke, Queensland University of Technology
 <summary>Pixels, images, image processing, feature extraction</summary>
 
 #### Slides:
-[A1 Slides](coming soon)
+[A1 Slides](Robotic_Vision/Slides/A1-Image-processing.pdf)
 
 #### Coding Session:
 * [Finding blobs](https://colab.research.google.com/github/rvss-australia/RVSS/blob/main/Robotic_Vision/finding-blobs.ipynb)
@@ -57,7 +57,7 @@ The following masterclasses from the [QUT Robot Academy](https://robotacademy.ne
 <summary>From light to digital images, the front end of the robotic vision process</summary>
 
 #### Slides:
-[A2 Slides](coming soon)
+[A2 Slides](Robotic_Vision/Slides/A2-Image-geometry.pdf)
 
 #### Coding Session:
 * [Camera projection basics](https://colab.research.google.com/github/rvss-australia/RVSS/blob/main/Robotic_Vision/camera_animation.ipynb)
@@ -81,7 +81,7 @@ The following masterclasses from the [QUT Robot Academy](https://robotacademy.ne
 <summary>Closing the loop from sensing to action</summary>
 
 #### Slides:
-[A3 Slides](coming soon)
+[A3 Slides](Robotic_Vision/Slides/A3-vision-and-motion.pdf)
 
 #### Coding Session:
 * [Image motion](https://colab.research.google.com/github/rvss-australia/RVSS/blob/main/Robotic_Vision/ImageMotion.ipynb)
@@ -228,4 +228,10 @@ Presented by Dana Kulic, Monash University
 
 ---
 ## Deep Dives
-Coming soon
+
+### Stephen Gould, The Australian National University
+* [Slides](DeepDives/StevenGould/slides.pdf)
+* [Isaac Lecture Notes](DeepDives/StevenGould/isaac22-lecture-notes.pdf)
+
+### Richard Hartley, The Australian National University
+* [Slides](DeepDives/RichardHartley/Kioloa-2024-small.pdf)
