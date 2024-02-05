@@ -34,7 +34,7 @@ Presented by Peter Corke, Queensland University of Technology
 
 #### Coding Session:
 * [Finding blobs](https://colab.research.google.com/github/rvss-australia/RVSS/blob/main/Robotic_Vision/finding-blobs.ipynb)
-* [Image features](https://colab.research.google.com/github/rvss-australia/RVSS/blob/main/Robotic_Vision/image_features.ipynb)
+* [Image features](https://colab.research.google.com/github/rvss-australia/RVSS/blob/main/Robotic_Vision/image-features.ipynb)
 
 #### Supporting Resources:
 The following chapters from the [Robotics, Vision and Control](https://link.springer.com/book/10.1007%2F978-3-319-54413-7) Textbook support this session (likely available from your University library as an e-book or individual chapter download):
@@ -63,7 +63,7 @@ The following masterclasses from the [QUT Robot Academy](https://robotacademy.ne
 * [Camera projection basics](https://colab.research.google.com/github/rvss-australia/RVSS/blob/main/Robotic_Vision/camera_animation.ipynb)
 * [Camera modeling](https://colab.research.google.com/github/rvss-australia/RVSS/blob/main/Robotic_Vision/camera.ipynb)
 * [Camera calibration](https://colab.research.google.com/github/rvss-australia/RVSS/blob/main/Robotic_Vision/calibration.ipynb)
-* [Fiducial makers (AprilTags and ArUco markers)](https://colab.research.google.com/github/rvss-australia/RVSS/blob/main/Robotic_Vision/fiducuals.ipynb)
+* [Fiducial makers (AprilTags and ArUco markers)](https://colab.research.google.com/github/rvss-australia/RVSS/blob/main/Robotic_Vision/fiducials.ipynb)
 
 #### Supporting Resources:
 The following chapters from the [Robotics, Vision and Control](https://link.springer.com/book/10.1007%2F978-3-319-54413-7) Textbook support this session:
@@ -84,7 +84,7 @@ The following masterclasses from the [QUT Robot Academy](https://robotacademy.ne
 [A3 Slides](Robotic_Vision/Slides/A3-vision-and-motion.pdf)
 
 #### Coding Session:
-* [Image motion](https://colab.research.google.com/github/rvss-australia/RVSS/blob/main/Robotic_Vision/ImageMotion.ipynb)
+* [Image motion](https://colab.research.google.com/github/rvss-australia/RVSS/blob/main/Robotic_Vision/image-motion.ipynb)
 * [Image-based visual servoing (IBVS)](https://githubtocolab.com/rvss-australia/RVSS/blob/main/Robotic_Vision/IBVS.ipynb)
 
 #### Supporting Resources:
