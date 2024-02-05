@@ -9,13 +9,6 @@ The material here provided was developed as part of the [Robotic Vision Summer S
 Please see this [separate README](https://github.com/rvss-australia/RVSS_Need4Speed).
 
 ---
-# Introduction
-by Peter Corke, Queensland University of Technology
-
-#### Slides:
-Coming soon
-
----
 # Lectorials
 You can run the notebooks via Colab: http://colab.research.google.com/github/rvss-australia/RVSS.
 
@@ -25,76 +18,9 @@ Links to slide decks and information about the lectorials will appear below.
 ## Lectorial A: Robotic Vision
 Presented by Peter Corke, Queensland University of Technology
 
-### A1: Image Processing Fundamentals
-<details>
-<summary>Pixels, images, image processing, feature extraction</summary>
+The slides, details and resources for the A stream are here: 
+[A Slides](Robotic_Vision/README.md)
 
-#### Slides:
-[A1 Slides](Robotic_Vision/Slides/A1-Image-processing.pdf)
-
-#### Coding Session:
-* [Finding blobs](https://colab.research.google.com/github/rvss-australia/RVSS/blob/main/Robotic_Vision/finding-blobs.ipynb)
-* [Image features](https://colab.research.google.com/github/rvss-australia/RVSS/blob/main/Robotic_Vision/image-features.ipynb)
-
-#### Supporting Resources:
-The following chapters from the [Robotics, Vision and Control](https://link.springer.com/book/10.1007%2F978-3-319-54413-7) Textbook support this session (likely available from your University library as an e-book or individual chapter download):
-* Chapters 12.1, 12.2, 12.3, 12.4 and 12.5
-* Chapter 13.1
-  * Those who are a bit rusty on homogenous transformation matrices, rotation matrices and similar concepts may find Chapters 2.1 and 2.2 - 2D and 3D Geometry useful.
-
-The following masterclasses from the [QUT Robot Academy](https://robotacademy.net.au/) may also be used to help develop your knowledge:
-* [Introduction to Robotic Vision](https://robotacademy.net.au/masterclass/robotic-vision/)
-* [2D Geometry](https://robotacademy.net.au/masterclass/2d-geometry/) and [3D Geometry](https://robotacademy.net.au/masterclass/3d-geometry/)
-* [Getting Images into a Computer](https://robotacademy.net.au/masterclass/getting-images-into-a-computer/)
-* [Image Processing](https://robotacademy.net.au/masterclass/image-processing/)
-* [Spatial Operators](https://robotacademy.net.au/masterclass/spatial-operators/)
-* [Feature Extraction](https://robotacademy.net.au/masterclass/feature-extraction/)
-
-</details>
-
-### A2: Image Formation
-<details>
-<summary>From light to digital images, the front end of the robotic vision process</summary>
-
-#### Slides:
-[A2 Slides](Robotic_Vision/Slides/A2-Image-geometry.pdf)
-
-#### Coding Session:
-* [Camera projection basics](https://colab.research.google.com/github/rvss-australia/RVSS/blob/main/Robotic_Vision/camera_animation.ipynb)
-* [Camera modeling](https://colab.research.google.com/github/rvss-australia/RVSS/blob/main/Robotic_Vision/camera.ipynb)
-* [Camera calibration](https://colab.research.google.com/github/rvss-australia/RVSS/blob/main/Robotic_Vision/calibration.ipynb)
-* [Fiducial makers (AprilTags and ArUco markers)](https://colab.research.google.com/github/rvss-australia/RVSS/blob/main/Robotic_Vision/fiducials.ipynb)
-
-#### Supporting Resources:
-The following chapters from the [Robotics, Vision and Control](https://link.springer.com/book/10.1007%2F978-3-319-54413-7) Textbook support this session:
-* Chapters 11.1 and 11.2
-
-The following masterclasses from the [QUT Robot Academy](https://robotacademy.net.au/) may also be used to help develop your knowledge:
-* [How Are Images Formed](https://robotacademy.net.au/masterclass/how-images-are-formed/)
-* [The Geometry of Image Formation](https://robotacademy.net.au/masterclass/the-geometry-of-image-formation/) 
-  * You may find watching [3D Geometry](https://robotacademy.net.au/masterclass/3d-geometry/) prior to these two will be beneficial 
-
- </details>
- 
-### A3: Visual Control
-<details>
-<summary>Closing the loop from sensing to action</summary>
-
-#### Slides:
-[A3 Slides](Robotic_Vision/Slides/A3-vision-and-motion.pdf)
-
-#### Coding Session:
-* [Image motion](https://colab.research.google.com/github/rvss-australia/RVSS/blob/main/Robotic_Vision/image-motion.ipynb)
-* [Image-based visual servoing (IBVS)](https://githubtocolab.com/rvss-australia/RVSS/blob/main/Robotic_Vision/IBVS.ipynb)
-
-#### Supporting Resources:
-The following chapters from the [Robotics, Vision and Control](https://link.springer.com/book/10.1007%2F978-3-319-54413-7) Textbook support this session:
-* Chapters 15.2
-
-The following masterclasses from the [QUT Robot Academy](https://robotacademy.net.au/) may also be used to help develop your knowledge:
-* [Vision and Motion](https://robotacademy.net.au/masterclass/vision-and-motion/)
-
-</details>
  
 ---
 ## Lectorial B: Spatial Awareness
