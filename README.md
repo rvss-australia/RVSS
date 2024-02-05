@@ -232,3 +232,6 @@ Presented by Dana Kulic, Monash University
 ### Stephen Gould, The Australian National University
 * [Slides](DeepDives/StevenGould/slides.pdf)
 * [Isaac Lecture Notes](DeepDives/StevenGould/isaac22-lecture-notes.pdf)
+
+### Richard Hartley, The Australian National University
+* [Slides](DeepDives/RichardHartley/Kioloa-2024-small.pdf)
