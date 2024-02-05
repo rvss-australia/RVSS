@@ -109,7 +109,7 @@ Presented by Teresa Vidal-Calleja, University of Technology Sydney
 
 #### Coding Sessions:
 * [Basic Geometry](https://colab.research.google.com/github/rvss-australia/RVSS/blob/main/Spatial_Awareness/Tutorial_B1_Basic_Geometry/Basic%20Geometry.ipynb)
-* [Uncertainty](https://colab.research.google.com/github/rvss-australia/RVSS/blob/main/Spatial_Awareness/Tutorial_B1_Basic Geometry/2_Uncertainty.ipynb)
+* [Uncertainty](https://colab.research.google.com/github/rvss-australia/RVSS/blob/main/Spatial_Awareness/Tutorial_B1_Basic_Geometry/2_Uncertainty.ipynb)
 
 </details>
  
