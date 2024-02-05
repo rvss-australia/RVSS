@@ -109,6 +109,7 @@ Presented by Teresa Vidal-Calleja, University of Technology Sydney
 
 #### Coding Sessions:
 * [Basic Geometry](https://colab.research.google.com/github/rvss-australia/RVSS/blob/main/Spatial_Awareness/Tutorial_B1_Basic_Geometry/Basic%20Geometry.ipynb)
+* [Uncertainty](https://colab.research.google.com/github/rvss-australia/RVSS/blob/main/Spatial_Awareness/Tutorial_B1_Basic Geometry/2_Uncertainty.ipynb)
 
 </details>
  
@@ -121,7 +122,6 @@ Presented by Teresa Vidal-Calleja, University of Technology Sydney
 
 #### Coding Sessions:
 * [Motion Model](https://colab.research.google.com/github/rvss-australia/RVSS/blob/main/Spatial_Awareness/Tutorial_B2_Robot_Localisation/1_MotionModel.ipynb)
-* [Uncertainty](https://colab.research.google.com/github/rvss-australia/RVSS/blob/main/Spatial_Awareness/Tutorial_B2_Robot_Localisation/2_Uncertainty.ipynb)
 * [Kalman Filter 1D](https://colab.research.google.com/github/rvss-australia/RVSS/blob/main/Spatial_Awareness/Tutorial_B2_Robot_Localisation/3_KalmanFilter1D.ipynb)
 * [Multivariate Gaussian](https://colab.research.google.com/github/rvss-australia/RVSS/blob/main/Spatial_Awareness/Tutorial_B2_Robot_Localisation/4_MultiVariateGaussian.ipynb)
 * [EKF](https://colab.research.google.com/github/rvss-australia/RVSS/blob/main/Spatial_Awareness/Tutorial_B2_Robot_Localisation/5_EKF.ipynb)
