@@ -120,7 +120,7 @@ Presented by Dana Kulic, Monash University
 
 ### D2: Learning from Experience
 <details>
-<summary>Introduction to reinforcement learning</summary>
+<summary>Introduction to reinforcement learning Part 1</summary>
 
 #### Slides:
 * [D2 Slides](coming soon)
@@ -132,9 +132,9 @@ Presented by Dana Kulic, Monash University
 
 </details>
 
-### D3: Inverse Reinforcement Learning
+### D3: Learning from Experience
 <details>
-<summary>Introduction to inverse reinforcement learning</summary>
+<summary>Introduction to reinforcement learning part 2</summary>
 
 #### Slides:
 [D3 Slides](coming soon)
