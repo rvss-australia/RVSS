@@ -111,7 +111,7 @@ Presented by Dana Kulic, Monash University
 <summary>Action selection as supervised learning; behaviour cloning</summary>
 
 #### Slides:
-* [D1 Slides](coming soon)
+* [D1 Slides](Reinforcement_Learning/Slides/Session1.pdf)
 
 #### Coding Sessions:
 * [Introduction to Reinforcement Learning](https://colab.research.google.com/github/rvss-australia/RVSS/blob/main/Reinforcement_Learning/LearningToAct.ipynb)
