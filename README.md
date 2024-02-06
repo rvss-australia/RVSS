@@ -73,7 +73,7 @@ Presented by Simon Lucey, University of Adelaide
 <summary>Introduction to convolutional neural networks</summary>
 
 #### Slides:
-[C1 Slides](coming soon)
+[C1 Slides](Visual_Learning/Slides/RVSS-C1-Lucey.pdf)
 
 #### Coding Session:
 * [Image classification with multi-layer perceptron](https://colab.research.google.com/github/rvss-australia/RVSS/blob/main/Visual_Learning/Session1/Classification_MLP_2021.ipynb#scrollTo=lvPV3WzCC6WL)
