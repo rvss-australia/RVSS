@@ -11,6 +11,6 @@ Content covered during these sessions includes:
 
 ## Dependencies (auto-installed in Colab)
 
-- OpenAI Gym
+- OpenAI Gym (now [Gymnasium](https://github.com/Farama-Foundation/Gymnasium))
 - Pytorch
 

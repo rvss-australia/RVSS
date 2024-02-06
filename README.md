@@ -114,7 +114,7 @@ Presented by Dana Kulic, Monash University
 * [D1 Slides](coming soon)
 
 #### Coding Sessions:
-* [Introduction to Reinforcement Learning](https://colab.research.google.com/github/rvss-australia/RVSS/blob/main/Reinforcement_Learning/Session%201%20IntroRL.ipynb)
+* [Introduction to Reinforcement Learning](https://colab.research.google.com/github/rvss-australia/RVSS/blob/main/Reinforcement_Learning/LearningToAct.ipynb)
 
 </details>
 
@@ -126,9 +126,9 @@ Presented by Dana Kulic, Monash University
 * [D2 Slides](coming soon)
 
 #### Coding Sessions:
-* [Introduction to Model-Free Reinforcement Learning](https://colab.research.google.com/github/rvss-australia/RVSS/blob/main/Reinforcement_Learning/Session%202.1%20ModelFreeRL.ipynb)
-* [Deep RL - Replay Memory](https://colab.research.google.com/github/rvss-australia/RVSS/blob/main/Reinforcement_Learning/Session%202.2%20-%20DeepRL_ReplayMemory.ipynb)
-* [Deep RL - Target Network](https://colab.research.google.com/github/rvss-australia/RVSS/blob/main/Reinforcement_Learning/Session%202.3%20-%20DeepRL_DQNTarget.ipynb)
+* [Introduction to Model-Free Reinforcement Learning](https://colab.research.google.com/github/rvss-australia/RVSS/blob/main/Reinforcement_Learning/LearningToAct-Session2.ipynb)
+<!-- * [Deep RL - Replay Memory](https://colab.research.google.com/github/rvss-australia/RVSS/blob/main/Reinforcement_Learning/Session%202.2%20-%20DeepRL_ReplayMemory.ipynb)
+* [Deep RL - Target Network](https://colab.research.google.com/github/rvss-australia/RVSS/blob/main/Reinforcement_Learning/Session%202.3%20-%20DeepRL_DQNTarget.ipynb) -->
 
 </details>
 
@@ -138,6 +138,12 @@ Presented by Dana Kulic, Monash University
 
 #### Slides:
 [D3 Slides](coming soon)
+
+#### Coding Sessions:
+* [Introduction to Model-Free Reinforcement Learning](https://colab.research.google.com/github/rvss-australia/RVSS/blob/main/Reinforcement_Learning/LTASession3-Part1.ipynb)
+* [Basic Deep-Q Learning](https://colab.research.google.com/github/rvss-australia/RVSS/blob/main/Reinforcement_Learning/Session-3.2-DeepRL_BasicDQN.ipynb)
+* [Target Deep-Q Learning](https://colab.research.google.com/github/rvss-australia/RVSS/blob/main/Reinforcement_Learning/Session-3.3-DeepRL_TargetDQN.ipynb)
+
 
 </details>
 
