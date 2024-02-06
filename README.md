@@ -31,7 +31,7 @@ Presented by Teresa Vidal-Calleja, University of Technology Sydney
 <summary>Describing poses, transformations, and uncertainty</summary>
 
 #### Slides:
-[B1 Slides](coming soon)
+[B1 Slides](Spatial_Awareness/Slides/RVSS2024-B1-TVC.pdf)
 
 #### Coding Sessions:
 * [Basic Geometry](https://colab.research.google.com/github/rvss-australia/RVSS/blob/main/Spatial_Awareness/Tutorial_B1_Basic_Geometry/Basic%20Geometry.ipynb)
