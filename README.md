@@ -164,3 +164,6 @@ Presented by Dana Kulic, Monash University
 
 ### Jen Jen Chung, The University of Queensland
 * [Slides](DeepDives/JenJenChung/RVSS_JJC.pdf)
+
+### Hanna Kurniawati, The Australian National University
+* [Slides](DeepDives/HannaKurniawati/RVSS24DeepDives-hannaKurniawati.pdf)
