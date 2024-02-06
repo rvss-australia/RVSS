@@ -85,7 +85,7 @@ Presented by Simon Lucey, University of Adelaide
 <summary>Visual transformers and their connection to convolutional neural networks</summary>
 
 #### Slides:
-[C2](coming soon)
+[C2 Slides](Visual_Learning/Slides/RVSS-C2-Lucey.pdf)
 
 #### Coding Session:
 * [Image classification with Convolutional NN](https://colab.research.google.com/github/rvss-australia/RVSS/blob/main/Visual_Learning/Session2/LeNetClassificationExcercise_2021.ipynb)
