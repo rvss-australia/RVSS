@@ -97,7 +97,7 @@ Presented by Simon Lucey, University of Adelaide
 <summary>Point cloud processing with transformers</summary>
 
 #### Slides:
-[C3 Slides](coming soon)
+[C3 Slides](Visual_Learning/Slides/RVSS-C3-Lucey.pdf)
 
 </details>
 
