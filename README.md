@@ -68,10 +68,10 @@ Presented by Teresa Vidal-Calleja, University of Technology Sydney
 ## Lectorial C: Visual Learning
 Presented by Simon Lucey, University of Adelaide
 
-### C1: Convolutional Neural Networks
+### C1: Shallow and Deep Networks
 <details>
-<summary>Introduction to convolutional neural networks</summary>
-
+<summary>Introduction to visual learning with shallow and deep networks </summary>
+ 
 #### Slides:
 [C1 Slides](Visual_Learning/Slides/RVSS-C1-Lucey.pdf)
 
@@ -80,9 +80,9 @@ Presented by Simon Lucey, University of Adelaide
 
 </details>
 
-### C2: Visual Transformers
+### C2: Convolutional Neural Networks
 <details>
-<summary>Visual transformers and their connection to convolutional neural networks</summary>
+<summary>Introduction to convolutional neural networks</summary>
 
 #### Slides:
 [C2 Slides](Visual_Learning/Slides/RVSS-C2-Lucey.pdf)
@@ -92,9 +92,10 @@ Presented by Simon Lucey, University of Adelaide
 
 </details>
 
-### C3: Point Clouds
+### C3: Visual Transformers
 <details>
-<summary>Point cloud processing with transformers</summary>
+<summary>Visual transformers and their connection to convolutional neural networks</summary>
+
 
 #### Slides:
 [C3 Slides](Visual_Learning/Slides/RVSS-C3-Lucey.pdf)
