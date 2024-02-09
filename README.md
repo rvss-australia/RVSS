@@ -173,3 +173,6 @@ Presented by Dana Kulic, Monash University
 
 ### Hanna Kurniawati, The Australian National University
 * [Slides](DeepDives/HannaKurniawati/RVSS24DeepDives-hannaKurniawati.pdf)
+
+### Donald Dansereau, The University of Sydney
+* [Slides](DeepDives/DonaldDansereau/RVSS2024_Light.pdf)
