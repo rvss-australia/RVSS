@@ -138,7 +138,7 @@ Presented by Dana Kulic, Monash University
 <summary>Introduction to reinforcement learning part 2</summary>
 
 #### Slides:
-[D3 Slides](coming soon)
+[D3 Slides](Reinforcement_Learning/Slides/Session3.pdf)
 
 #### Coding Sessions:
 * [Introduction to Model-Free Reinforcement Learning](https://colab.research.google.com/github/rvss-australia/RVSS/blob/main/Reinforcement_Learning/LTASession3-Part1.ipynb)
