@@ -44,7 +44,7 @@ Presented by Teresa Vidal-Calleja, University of Technology Sydney
 <summary>Keeping track of stuff with imperfect measurement; Kalman filters, factor graphs, and batch optimisation</summary>
 
 #### Slides:
-[B2 Slides](coming soon)
+[B2 Slides](Spatial_Awareness/Slides/RVSS2024-B2-TVC.pdf)
 
 #### Coding Sessions:
 * [Motion Model](https://colab.research.google.com/github/rvss-australia/RVSS/blob/main/Spatial_Awareness/Tutorial_B2_Robot_Localisation/1_MotionModel.ipynb)
