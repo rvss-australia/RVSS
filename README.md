@@ -60,7 +60,7 @@ Presented by Teresa Vidal-Calleja, University of Technology Sydney
 <summary>A taxonomy of spatial representations</summary>
 
 #### Slides:
-[B3 Slides](coming soon)
+[B3 Slides](Spatial_Awareness/Slides/RVSS2024-B3-TVC.pdf)
 
 </details>
 
