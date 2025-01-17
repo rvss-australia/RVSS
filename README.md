@@ -1,8 +1,10 @@
-# Official Repository RVSS 2024
+# Official Repository RVSS 2025
 
 ![logo](Pics/RVSS-logo-col.med.jpg)
 
 The material here provided was developed as part of the [Robotic Vision Summer School](https://www.rvss.org.au/).
+
+UNDER CONSTRUCTION
 
 ---
 # Workshops
