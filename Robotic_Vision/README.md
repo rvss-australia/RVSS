@@ -1,7 +1,7 @@
-# Robotic Vision (A) stream
+# Robotic Vision (A) stream (Peter Corke)
 
-This set of three lectures will introduce you to important foundational concepts in computer vision.  This are "classical" topics
-but which we believe are important to understand, even in the modern deep-learning era.
+This set of two lectures will introduce you to important foundational concepts in computer vision.  These are "classical" topics
+but nevertheless topics that we strongly believe are important to understand, even in the modern deep-learning era.
 
 There are four sets of learning resources for each topic that I cover, described in a bit more detail below.
 
@@ -21,17 +21,17 @@ The material that I present is covered in more detail in my book Robotic, Vision
 * [Robotic, Vision & Control: Fundamental algorithms in **Python**](https://link.springer.com/book/10.1007/978-3-031-06469-2)
 * [Robotic, Vision & Control: Fundamental algorithms in **MATLAB**](https://link.springer.com/book/10.1007/978-3-031-07262-8)
 
-The books are very similar in chapter structure and content, the first is based on Python code and open-source packages, the second is based on MATLAB and propietrary toolboxes that you need to licence from MathWorks (most universities will give you the required licences).  It's just a matter of personal preference.
+The books are very similar in chapter structure and content, the first is based on Python code and open-source packages, the second is based on MATLAB and propietrary toolboxes that you need to licence from MathWorks (most universities will provide you the required licences).  It's just a matter of personal preference.
 
-If you are studying at a university it is highly likely that you can download - **for free** - the chapters of this book from the links above.
-For this course, just grab the indicated chapters (11, 12, 13, 15) from the latter part of the book
+If you are studying at a university it is highly likely that you can download - **for free** - the chapters of these books from the links above.  Go to your libraries website, search for the book, click on the e-book link.
+For this course, just grab chapters 11-14
 
 <img src="readme-pix/download1.png" alt="download vision chapters" width="400" />
 <img src="readme-pix/download2.png" alt="download visual motion chapters" width="400" />
 
 
 Feel free to grab any other chapters that might take your fancy.  Chapter 2 is a good (I think) introduction to representing position
-and orientation in 3D space, Appendix B is a convise refresher on linear algebra and geometry.
+and orientation in 3D space (which is covered in the first Visual SLAM lecture), Appendix B is a concise refresher on linear algebra, geometry, linearization, and solving sets of non-linear equations.
 
 
 ## Videos
@@ -66,6 +66,8 @@ conda create -n RVSS python=3.10
 conda activate RVSS
 pip install machinevisiontoolbox
 ```
+
+If you run into any issues with Conda or local install talk to me, Tobi or Don.
 
 # Lecture resources
 
@@ -112,19 +114,3 @@ calibration.
   * [`calibration2d.ipynb`](calibration2d.ipynb), extension: calibrating a camera using a set of chequerboard images  <a href="https://colab.research.google.com/github/rvss-australia/RVSS/blob/main/Robotic_Vision/calibration2d.ipynb" target="_blank"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
   * [`homography.ipynb`](homographies.ipynb),  extension: computing an homography <a href="https://colab.research.google.com/github/rvss-australia/RVSS/blob/main/Robotic_Vision/homography.ipynb" target="_blank"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
 
-## Lecture A3
-
-This lecture is concerned with the relationship between motion of a camera and the corresponding changes in the image.  This can provide information about
-the 3D nature of the world, and can also be inverted to determine how a camera should move in order to create the desired change in an image.
-
-* <a href="Slides/A3-vision-and-motion.pdf" target="_blank">Lecture PDF file</a>
-
-* Robotics, Vision & Control: Chapter 15
-
-* Robot Academy video masterclasses (each is a collection of short videos, ~1h total run time)
-
-  * [Vision and motion](https://robotacademy.net.au/masterclass/vision-and-motion/)
-
-* Jupyter/Python Notebooks
-  * [`image-motion.ipynb`](image-motion.ipynb),  extension, finding the pose and identity of ArUco (QR codes) in an image <a href="https://colab.research.google.com/github/rvss-australia/RVSS/blob/main/Robotic_Vision/image-motion.ipynb" target="_blank"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
-  * [`fiducials.ipynb`](fiducials.ipynb),  extension, finding the pose and identity of ArUco (QR codes) in an image <a href="https://colab.research.google.com/github/rvss-australia/RVSS/blob/main/Robotic_Vision/homographies.ipynb" target="_blank"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
