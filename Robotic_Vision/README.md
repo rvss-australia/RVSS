@@ -9,6 +9,8 @@ I teach general principles but to put the ideas into practice we need to write c
 and library/package/toolbox to choose from.  In the past I've done a lot in MATLAB but now I'm working with Python, and Python is
 what we will use for the summer school.
 
+Peter
+
 ## Lectures
 
 The PDFs of my lecture slides are provided in advance.  Feel free to load them into your tablet to annotate as we go along.
