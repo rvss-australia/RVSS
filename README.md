@@ -84,5 +84,5 @@ Links to slide decks and information about the lectures will appear below.
 
 ### Robot Imitation Learning Hands-On, Dana Kulic
 * [Slides](todo)
-* [Code](todo)
+* [Code](TODO)
 
