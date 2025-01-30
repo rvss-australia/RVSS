@@ -1,26 +1,28 @@
 # Robotic Vision (A) stream (Peter Corke)
 
-This set of two lectures will introduce you to important foundational concepts in computer vision.  These are "classical" topics
+There are three lectures in this stream.  The first (A1), is a general maths-free introduction to the topic of robotic vision.  
+
+The next two lectures (A2, A3) will introduce you to important foundational concepts in computer vision.  These are "classical" topics
 but nevertheless topics that we strongly believe are important to understand, even in the modern deep-learning era.
 
-There are four sets of learning resources for each topic that I cover, described in more detail below.
+There are four sets of learning resources for both A2 and A3, and these are described in more detail below.
 
-I teach general principles but to put the ideas into practice we need to write code.  There are myriad choices of language
+I teach general principles but to put the ideas into practice I think it's really useful to write code.  There are myriad choices of language
 and library/package/toolbox to choose from.  In the past I've done a lot in MATLAB but now I'm working with Python, and Python is
-what we will use for the summer school.
+what we will we will be using.
 
 
-Peter
+Peter,
 January 2025
 
 ## Lectures
 
-* Lecture A1 Introduction to Robotic Vision (7:30pm Monday, 30 minutes)
-* Lecture A2  Cameras and Image Formation (8:30am Tuesday, 60 minutes)
-* Lecture A3 Image Processing (9:45am Tuesday, 60 minutes)
+* Lecture A1: Introduction to Robotic Vision (7:30pm Monday, 30 minutes)
+* Lecture A2:  Cameras and Image Formation (8:30am Tuesday, 60 minutes)
+* Lecture A3: Image Processing (9:45am Tuesday, 60 minutes)
 * optional Tutorial session (4:00pm Tuesday, 90 minutes), chat about concepts from lectures, work through notebook examples
 
-The PDFs of my lecture slides are provided in advance.  Feel free to load them into your tablet to annotate as we go along.
+The PDFs of lectures A2 and A3 are provided in advance.  Feel free to load them into your tablet to annotate as we go along.
 
 ## Book
 
@@ -104,7 +106,7 @@ then run Jupyter
 ```
 jupyter notebook
 ```
-which will open a new browser tab with the Jupyter GUI.  The provided notebooks have not been tested with JupyterLab.
+which will open a new browser tab with the Jupyter GUI.  The UI is a bit clunky, but it works.  The Visual Studio version, above, is much more slick.  These notebooks have not been tested with JupyterLab.
 
 
 ### Google Colab
@@ -112,7 +114,7 @@ which will open a new browser tab with the Jupyter GUI.  The provided notebooks 
 This is theoretically a convenient approach with zero install on your computer, but unforutunately each notebook is quite slow to startup because the toolboxes need to be installed into the Colab environment, and they are only cached there for a short amount of time.
 
 Just click the <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/> buttons below.
-Colab will pull the notebook from GitHub, and if you modify the notebook you have the option of saving it in your own GitHub account, or Google Drive.  
+Colab will pull the notebook from GitHub, and allow you to interact with it in a browser tab. If you modify the notebook you have the option of saving it in your own GitHub account, or on Google Drive.  
 
 
 # Lecture resources
