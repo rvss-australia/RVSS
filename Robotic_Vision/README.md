@@ -128,7 +128,7 @@ This is an easy no-maths lecture to get you thinking about the wonderful sense o
 This lecture introduces the process of image formation, how the 3D world is projected into a 2D image. Topics include central projection model, homographies, and camera
 calibration.
 
-* <a href="Slides/A2-Image-geometry.pdf" target="_blank">Lecture PDF file</a>
+* <a href="Slides/A2 - cameras-image-formation.pdf" target="_blank">Lecture PDF file</a>
 
 * Robotics, Vision & Control: Section 13.1
 
@@ -149,7 +149,7 @@ calibration.
 
 This lecture introduces the fundamentals of image processing.  Topics include pixels and images, image arithmetic, spatial operations such as convolution, and operations on images to find motion, simple blob objects, and image features.
 
-* <a href="Slides/A1-Image-processing.pdf" target="_blank">Lecture PDF file</a>
+* <a href="Slides/A3 - image-processing.pdf" target="_blank">Lecture PDF file</a>
 
 * Robotics, Vision & Control: Chapters 11 and 12
 
