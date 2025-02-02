@@ -21,7 +21,7 @@ Links to slide decks and information about the lectures will appear below.
 ## Monday / Tuesday
 
 ### Introduction to Robotic Vision, Peter Corke
-* Peter's content is all available [here](Robotic_Vision)
+* Peter's content is all available via the readme [here](Robotic_Vision) (scroll down)
 
 ### Cameras and Image Formation, Peter Corke
 
