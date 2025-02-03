@@ -4,7 +4,7 @@
 
 The material here provided was developed as part of the [Robotic Vision Summer School](https://www.rvss.org.au/).
 
-UNDER CONSTRUCTION
+Under construction. Slides will appear as they become available.
 
 ---
 The main RVSS [Website](https://www.rvss.org.au/) has information about the school and its program.
@@ -26,8 +26,9 @@ Links to slide decks and information about the lectures will appear below.
 ### Cameras and Image Formation, Peter Corke
 
 ### Image Processing, Peter Corke
-
+  
 ### Deep Learning, Simon Lucey
+* [Slides](Visual_Learning/RVSS2025-Intro_DL-Lecture_1.pdf)
 
 ### Neuromorphic Processing and Event Cameras, Yulia Sandamirskaya
 
