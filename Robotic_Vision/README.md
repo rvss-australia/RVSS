@@ -123,6 +123,24 @@ Colab will pull the notebook from GitHub, and allow you to interact with it in a
 
 This is an easy no-maths lecture to get you thinking about the wonderful sense of vision that we have, and that robots should have.
 
+The books that I mentioned are:
+
+* [The Eye, by Simon Ings](https://www.amazon.com/dp/0747592861), how the eye works for non-biologists
+
+* [Vision and Brain: How We Perceive the World (MIT Press),
+by James V. Stone](https://www.amazon.com/dp/0262517736), another book for non-specialists that describes human visual process.
+
+* [Animal Eyes (Oxford Animal Biology Series) 2nd Edition
+by Michael F. Land and Dan-Eric Nilsson](https://www.amazon.com/dp/0199581142), discusses how the eyes of animals have evolved to fit their particular ecological niche, trading off light levels, size, field of view, resolution etc.
+
+* [In the Blink of an Eye: How Vision Kick-Started the Big Bang of Evolution,
+by Andrew Parker](https://www.amazon.com/dp/0565094009), proposes an interesting theory about how the mutation that led to vision might have dramatically spurred the development of life on Earth
+
+* [Seeing Through Illusions 1st Edition
+by Richard Gregory](https://www.amazon.com/dp/0192802852), this book takes a neuropsychological approach to what visual illusions can tell us about how our brains perceive the world.
+
+
+
 ## Lecture A2  Cameras and Image Formation (8:30am Tuesday, 60 minutes)
 
 This lecture introduces the process of image formation, how the 3D world is projected into a 2D image. Topics include central projection model, homographies, and camera
