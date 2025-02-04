@@ -1,0 +1,6 @@
+pip install jax
+pip install "numpy<2"
+pip install imageio
+pip install optax
+pip install pynput
+pip install svgwrite
