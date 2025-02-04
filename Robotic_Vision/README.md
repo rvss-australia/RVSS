@@ -75,7 +75,7 @@ I would highly recommend that you use [Miniconda](https://docs.conda.io/projects
 ```
 conda create -n RVSS python=3.10
 conda activate RVSS
-pip install machinevisiontoolbox
+pip install machinevision-toolbox-python
 ```
 
 If you run into any issues with Conda or local install talk to me, Tobi or Don.
