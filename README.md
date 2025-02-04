@@ -38,6 +38,7 @@ Links to slide decks and information about the lectures will appear below.
 ### Visual SLAM, Tom Drummond
 
 ### Transformers, Simon Lucey
+* [Slides](Visual_Learning/RVSS2025-Tokens_and_Transformers.pdf)
 
 ### Transformers Hands-On, Simon Lucey
 
