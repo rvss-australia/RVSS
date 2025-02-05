@@ -43,7 +43,7 @@ Links to slide decks and information about the lectures will appear below.
 ### Transformers Hands-On, Simon Lucey
 
 ### Radiance Field Representations, Donald Dansereau
-
+* [Slides](Radiance_Fields/RVSS2025_RadianceFields.pdf), [Code](Radiance_Fields/Code)
 
 ---
 ## Thursday
