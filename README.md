@@ -57,6 +57,7 @@ Links to slide decks and information about the lectures will appear below.
 
 
 ### Uncertainty in Deep Learning, Dimity Miller
+* [Slides](Uncertainty_in_Deep_Learning/RVSS_2025_UncDL.pdf)
 
 ---
 ## Friday
