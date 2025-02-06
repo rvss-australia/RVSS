@@ -52,6 +52,7 @@ Links to slide decks and information about the lectures will appear below.
 ### Policy Learning, Dana Kulic
 
 ### Bridging AI and Physical Interaction, Feras Dayoub	
+* [Slides](AI_and_Physical_Interaction/RVSS2025-Feras-Dayoub_Lecture.pdf)
 
 ### 3D Representations Hands-On, Tom Drummond
 
