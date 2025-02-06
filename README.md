@@ -55,7 +55,7 @@ Links to slide decks and information about the lectures will appear below.
 * [Slides](AI_and_Physical_Interaction/RVSS2025-Feras-Dayoub_Lecture.pdf)
 
 ### 3D Representations Hands-On, Tom Drummond
-
+* See the Colab notebooks http://colab.research.google.com/github/rvss-australia/RVSS under "Spatial Awareness".
 
 ### Uncertainty in Deep Learning, Dimity Miller
 * [Slides](Uncertainty_in_Deep_Learning/RVSS_2025_UncDL.pdf)
