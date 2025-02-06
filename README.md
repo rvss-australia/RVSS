@@ -49,6 +49,7 @@ Links to slide decks and information about the lectures will appear below.
 * [Slides](Visual_Learning/RVSS2025-Foundational.pdf)
 
 ### Policy Learning, Dana Kulic
+* [Slides](Reinforcement_Learning/LearningToAct-Session1.pdf)
 
 ### Bridging AI and Physical Interaction, Feras Dayoub	
 * [Slides](AI_and_Physical_Interaction/RVSS2025-Feras-Dayoub_Lecture.pdf)
@@ -63,11 +64,13 @@ Links to slide decks and information about the lectures will appear below.
 ## Friday
 
 ### Imitation Learning with Diffusion Policies, VLAs & Co., Dana Kulic
+* [Slides](Reinforcement_Learning/LearningToAct-Session2.pdf)
 
 ### Learning-Based SLAM, Tom Drummond
 
 ### TBC, Richard Hartley
 
 ### Robot Imitation Learning Hands-On, Dana Kulic
+* [Slides](Reinforcement_Learning/LearningToAct-Session3.pdf)
 
 
