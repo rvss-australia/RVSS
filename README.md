@@ -34,6 +34,7 @@ Links to slide decks and information about the lectures will appear below.
 ## Wednesday
 
 ### Visual SLAM, Tom Drummond
+* [Slides](Spatial_Awareness/Slides/RVSS-2025_Visual_SLAM.pdf)
 
 ### Transformers, Simon Lucey
 * [Slides](Visual_Learning/RVSS2025-Tokens_and_Transformers.pdf)
