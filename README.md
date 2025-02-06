@@ -21,11 +21,9 @@ Links to slide decks and information about the lectures will appear below.
 ## Monday / Tuesday
 
 ### Introduction to Robotic Vision, Peter Corke
-* Peter's content is all available via the readme [here](Robotic_Vision) (scroll down)
-
 ### Cameras and Image Formation, Peter Corke
-
 ### Image Processing, Peter Corke
+* Peter's content is all available via the readme [here](Robotic_Vision) (scroll down)
   
 ### Deep Learning, Simon Lucey
 * [Slides](Visual_Learning/RVSS2025-Intro_DL-Lecture_1.pdf)
@@ -55,7 +53,7 @@ Links to slide decks and information about the lectures will appear below.
 * [Slides](AI_and_Physical_Interaction/RVSS2025-Feras-Dayoub_Lecture.pdf)
 
 ### 3D Representations Hands-On, Tom Drummond
-
+* See the Colab notebooks http://colab.research.google.com/github/rvss-australia/RVSS under "Spatial Awareness".
 
 ### Uncertainty in Deep Learning, Dimity Miller
 * [Slides](Uncertainty_in_Deep_Learning/RVSS_2025_UncDL.pdf)
