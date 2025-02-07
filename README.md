@@ -67,6 +67,7 @@ Links to slide decks and information about the lectures will appear below.
 * [Slides](Reinforcement_Learning/LearningToAct-Session2.pdf)
 
 ### Learning-Based SLAM, Tom Drummond
+* [Slides](Spatial_Awareness/Slides/RVSS-2025_Learning_Based_SLAM.pdf)
 
 ### TBC, Richard Hartley
 
