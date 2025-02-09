@@ -69,7 +69,8 @@ Links to slide decks and information about the lectures will appear below.
 ### Learning-Based SLAM, Tom Drummond
 * [Slides](Spatial_Awareness/Slides/RVSS-2025_Learning_Based_SLAM.pdf)
 
-### TBC, Richard Hartley
+### Diffusion, Richard Hartley
+* [Slides](Diffusion/RVSS2025_Diffusion.pdf)
 
 ### Robot Imitation Learning Hands-On, Dana Kulic
 * [Slides](Reinforcement_Learning/LearningToAct-Session3.pdf)
