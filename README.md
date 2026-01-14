@@ -18,61 +18,46 @@ You can run the notebooks via Colab: http://colab.research.google.com/github/rvs
 Links to slide decks and information about the lectures will appear below.
 
 ---
-## Monday / Tuesday
+## Sunday / Monday
 
 ### Introduction to Robotic Vision, Peter Corke
 ### Cameras and Image Formation, Peter Corke
 ### Image Processing, Peter Corke
-* Peter's content is all available via the readme [here](Robotic_Vision) (scroll down)
-  
+ 
 ### Deep Learning, Simon Lucey
-* [Slides](Visual_Learning/RVSS2025-Intro_DL-Lecture_1.pdf)
 
-### Neuromorphic Processing and Event Cameras, Yulia Sandamirskaya
+### Deep Dive, Thierry Peynot
+
+---
+## Tuesday
+
+### Visual SLAM, Tom Drummond
+
+### Transformers, Simon Lucey
+
+### Policy Learning, Dana Kulic
+
+### Deep Dive, Scarlett Raine
 
 ---
 ## Wednesday
 
-### Visual SLAM, Tom Drummond
-* [Slides](Spatial_Awareness/Slides/RVSS-2025_Visual_SLAM.pdf)
+### Learning-Based SLAM, Tom Drummond
 
-### Transformers, Simon Lucey
-* [Slides](Visual_Learning/RVSS2025-Tokens_and_Transformers.pdf)
+### Peter Corke
 
-### Radiance Field Representations, Donald Dansereau
-* [Slides](Radiance_Fields/RVSS2025_RadianceFields.pdf), [Code](Radiance_Fields/Code)
+### Imitation Learning, Dana Kulic
+
+### Deep Dive, Richard Hartley
 
 ---
 ## Thursday
 
 ### Foundation Models, Simon Lucey
-* [Slides](Visual_Learning/RVSS2025-Foundational.pdf)
 
-### Policy Learning, Dana Kulic
-* [Slides](Reinforcement_Learning/LearningToAct-Session1.pdf)
+### Tom Drummond
 
-### Bridging AI and Physical Interaction, Feras Dayoub	
-* [Slides](AI_and_Physical_Interaction/RVSS2025-Feras-Dayoub_Lecture.pdf)
-
-### 3D Representations Hands-On, Tom Drummond
-* See the Colab notebooks http://colab.research.google.com/github/rvss-australia/RVSS under "Spatial Awareness".
-
-### Uncertainty in Deep Learning, Dimity Miller
-* [Slides](Uncertainty_in_Deep_Learning/RVSS_2025_UncDL.pdf)
+### Dana Kulic
 
 ---
-## Friday
-
-### Imitation Learning with Diffusion Policies, VLAs & Co., Dana Kulic
-* [Slides](Reinforcement_Learning/LearningToAct-Session2.pdf)
-
-### Learning-Based SLAM, Tom Drummond
-* [Slides](Spatial_Awareness/Slides/RVSS-2025_Learning_Based_SLAM.pdf)
-
-### Diffusion, Richard Hartley
-* [Slides](Diffusion/RVSS2025_Diffusion.pdf)
-
-### Robot Imitation Learning Hands-On, Dana Kulic
-* [Slides](Reinforcement_Learning/LearningToAct-Session3.pdf)
-
 
