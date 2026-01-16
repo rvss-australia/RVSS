@@ -21,43 +21,33 @@ Links to slide decks and information about the lectures will appear below.
 ## Sunday / Monday
 
 ### Introduction to Robotic Vision, Peter Corke
-### Cameras and Image Formation, Peter Corke
+### Image Formation, Peter Corke
 ### Image Processing, Peter Corke
- 
-### Deep Learning, Simon Lucey
-
-### Deep Dive, Thierry Peynot
+### Feature Extraction, Peter Corke
+### Deep Dive, Sue Keay
 
 ---
 ## Tuesday
 
 ### Visual SLAM, Tom Drummond
-
-### Transformers, Simon Lucey
-
+### Deep Learning, Simon Lucey
 ### Policy Learning, Dana Kulic
-
-### Deep Dive, Scarlett Raine
+### Deep Dive, Thierry Peynot
 
 ---
 ## Wednesday
 
 ### Learning-Based SLAM, Tom Drummond
-
-### Peter Corke
-
+### Transformers, Simon Lucey
 ### Imitation Learning, Dana Kulic
-
-### Deep Dive, Richard Hartley
+### Deep Dive, Scarlett Raine
 
 ---
 ## Thursday
 
+### Representations, Tom Drummond
 ### Foundation Models, Simon Lucey
-
-### Tom Drummond
-
-### Dana Kulic
+### Multi-Task Learning, Dana Kulic
+### Deep Dive, Richard Hartley
 
 ---
-
