@@ -29,16 +29,16 @@ Links to slide decks and information about the lectures will appear below.
 ---
 ## Tuesday
 
-### Visual SLAM, Tom Drummond
 ### Deep Learning, Simon Lucey
-### Policy Learning, Dana Kulic
-### Deep Dive, Thierry Peynot
+### Visual SLAM, Tom Drummond
+### Transformers, Simon Lucey
+### Deep Dive: Planetary Rover Autonomous Navigation, Thierry Peynot
 
 ---
 ## Wednesday
 
+### Policy Learning, Dana Kulic
 ### Learning-Based SLAM, Tom Drummond
-### Transformers, Simon Lucey
 ### Imitation Learning, Dana Kulic
 ### Deep Dive, Scarlett Raine
 
@@ -48,6 +48,6 @@ Links to slide decks and information about the lectures will appear below.
 ### Representations, Tom Drummond
 ### Foundation Models, Simon Lucey
 ### Multi-Task Learning, Dana Kulic
-### Deep Dive, Richard Hartley
+### Deep Dive: Calibration and Pose, Richard Hartley
 
 ---
